@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>http://glportal.de/archive.html</loc>
+  <lastmod>2014-11-23</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/categories/index.html</loc>
+  <lastmod>2014-11-23</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/galleries/art/index.html</loc>
+  <lastmod>2014-11-23</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/galleries/index.html</loc>
+  <lastmod>2014-11-23</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/galleries/screenshots/index.html</loc>
+  <lastmod>2014-11-23</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/galleries/screenshots/thumbs/index.html</loc>
+  <lastmod>2014-11-22</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/galleries/submissions/index.html</loc>
+  <lastmod>2014-11-22</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/index.html</loc>
+  <lastmod>2014-11-23</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/listings/index.html</loc>
+  <lastmod>2014-11-23</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/news/index.html</loc>
+  <lastmod>2014-11-23</lastmod>
+ </url>
+</urlset>
