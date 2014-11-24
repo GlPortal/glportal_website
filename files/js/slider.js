@@ -2,6 +2,8 @@ $(function() {
     var Page = (function() {
         var $nav = $( '#nav-dots > span' ),
             slitslider = $( '#slider' ).slitslider( {
+                autoSlide: true,
+                autoSlideTimeout: 100,
                 onBeforeChange : function( slide, pos ) {
                     $nav.removeClass( 'nav-dot-current' );
                     $nav.eq( pos ).addClass( 'nav-dot-current' );
@@ -29,5 +31,5 @@ $(function() {
 });
 
 $( document ).ready(function() {
-    $('#slider').show();
+    $('#slider').slideDown("slow");
 });

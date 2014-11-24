@@ -9,40 +9,8 @@
 .. hidetitle: True
 #+END_COMMENT
 
+#+INCLUDE: "slider.inc.org" :minlevel 1
 
-#+BEGIN_HTML
-<div id="slider" class="sl-slider-wrapper" style="display: none;">
-<div class="sl-slider">
-<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-<div class="sl-slide-inner sl-slide-inner-1">
-<div class="milk-glas">
-<h2>Ever Evolving, Community Driven, Free</h2>
-<blockquote><p>GlPortal is a free engine and computer game that is developed in colaboration with developes, artists and fans from all over the world.</p></blockquote>
-</div>
-</div>
-</div>
-<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-<div class="sl-slide-inner sl-slide-inner-2">
-</div>
-</div>
-<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-<div class="sl-slide-inner sl-slide-inner-3">
-<div class="milk-glas">
-<h2>We blend.</h2>
-<blockquote><p>We use Blender for all of our assets and our map editor is a Blender plugin. If you are a Blender enthusiast, contact us to join our team. </p></blockquote>
-</div>
-</div>
-</div>
-
-</div><!-- /sl-slider -->
-<nav id="nav-dots" class="nav-dots">
-<span class="nav-dot-current"></span>
-<span></span>
-<span></span>
-</nav>
-</div><!-- /slider-wrapper -->
-
-#+END_HTML
 #+BEGIN_HTML
 <link rel="stylesheet" type="text/css" href="css/slider.css" />
 <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />
@@ -82,3 +50,57 @@ The current release is v0.0.7.1 frogger
 * Getting Started
 
 * Join the Team
+
+#+BEGIN_HTML  
+<p data-sr="enter bottom and scale up 20% over 2s"> GlPortal rocks! </p>
+#+END_HTML
+
+Stuff
+Stuff
+
+Stuff
+StuffStuff
+Stuff
+
+Stuff
+StuffStuff
+Stuff
+
+Stuff
+StuffStuff
+Stuff
+
+Stuff
+StuffStuff
+Stuff
+
+Stuff
+StuffStuff
+Stuff
+
+#+BEGIN_HTML  
+<div data-sr="wait 0.5s and then ease-in-out 200px"> 
+<p>GlPortal rocks!</p>
+<p>Stuff</p>
+<p>StuffStuff</p>
+<p>Stuff</p>
+
+<p>Stuff</p>
+<p>StuffStuff</p>
+<p>Stuff</p>
+
+<p>Stuff</p>
+</div>
+
+#+END_HTML
+
+Stuff
+StuffStuff
+Stuff
+
+Stuff
+StuffStuff
+Stuff
+
+Stuff
+Stuff

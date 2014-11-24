@@ -34,7 +34,7 @@
  </url>
  <url>
   <loc>http://glportal.de/index.html</loc>
-  <lastmod>2014-11-23</lastmod>
+  <lastmod>2014-11-24</lastmod>
  </url>
  <url>
   <loc>http://glportal.de/listings/index.html</loc>
@@ -43,5 +43,9 @@
  <url>
   <loc>http://glportal.de/news/index.html</loc>
   <lastmod>2014-11-23</lastmod>
+ </url>
+ <url>
+  <loc>http://glportal.de/sliderinc.html</loc>
+  <lastmod>2014-11-24</lastmod>
  </url>
 </urlset>
