@@ -16,39 +16,76 @@
 <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <h1>GlPortal is a free 3d action adventure</h1>
+<div class="panel panel-default">
+  <div class="panel-body">
+<p>
+#+END_HTML
+Press download to get a build from indiedb. Or use the source button to get to our repository on github.
+If you encounter a bug, please report it.
+#+BEGIN_HTML
+   </p>
+
+<div class="btn-group" role="group" aria-label="...">
+<a class="btn btn-normal btn-success btn-lg" target="_blank" href="http://www.indiedb.com/games/glportal/downloads"><i class="glyphicon glyphicon-download"></i> Download</a>
+<a class="btn btn-normal btn-primary  btn-lg" target="_blank" href="https://github.com/GlPortal/glPortal"><i class="glyphicon glyphicon-folder-close"></i> Source Code</a>
+<a class="btn btn-normal btn-danger btn-lg" target="_blank" href="http://bugs.glportal.de"><i class="glyphicon glyphicon-bullhorn"></i> Report a Bug</a>
+</div>
+  </div>
+</div>
+
 
 <div class="row">
 #+END_HTML
-* Quick Start
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: col-md-8 
-:END:
 
-
-GlPortal is a free game for GNU/Linux, Windows and Mac OS X. 
-GlPortal is under heavy development.
 
 #+BEGIN_HTML  
-<a class="btn btn-normal btn-primary  btn-lg" href="https://github.com/GlPortal/glPortal"><i class="glyphicon glyphicon-folder-close"></i> Source Code</a>
-<a class="btn btn-normal btn-success btn-lg" href="http://www.indiedb.com/games/glportal/downloads"><i class="glyphicon glyphicon-download"></i> Download</a>
-<a class="btn btn-normal btn-danger btn-lg" href="http://bugs.glportal.de"><i class="glyphicon glyphicon-bullhorn"></i> Report a Bug</a>
+<div class="col-md-8">
+<div class="jumbotron">
 #+END_HTML
 
-* Quick Start
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: col-md-4 jumbotron
-:END:
+GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows and Mac OS X. 
 
-#+BEGIN_HTML
-<a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
-<a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
-#+END_HTML
-The current release is v0.0.7.1 frogger
+The player has to solve puzzles with the help of teleportation and physics manipulation.
+
 #+BEGIN_HTML  
 </div>
 #+END_HTML
+#+BEGIN_HTML  
+</div>
+#+END_HTML
+#+BEGIN_HTML  
+<div class="col-md-4">
+
+#+END_HTML
+* Overview
+
+- Support us
+- Take a look at the game
+
+* Features
+- Free and open game and engine
+- Enthusiastic community
+- Active Developers
+
+#+BEGIN_HTML  
+</div>
+</div>
+#+END_HTML
+* Take A Look
+#+BEGIN_HTML
+<a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
+<a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
+<a class="btn btn-normal btn-primary" href="https://www.youtube.com/results?search_query=glportal">Videos@Youtube</a>
+#+END_HTML
+The current release is v0.0.7.1 frogger
 * Getting Started
 
+* Support Us
+You can support us by voting for us on:
+#+BEGIN_HTML
+<a class="btn btn-normal btn-primary" target="_blank" href="http://www.indiedb.com/games/glportal">Indiedb</a>
+<a class="btn btn-normal btn-primary" target="_blank" href="http://www.lgdb.org/game/glportal-free">LGDB</a>
+#+END_HTML
 * Join the Team
 
 #+BEGIN_HTML  
