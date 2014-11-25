@@ -7,14 +7,12 @@
 .. description: 
 .. type: text
 .. hidetitle: True
+.. splitslider: True
 #+END_COMMENT
 
 #+INCLUDE: "slider.inc.org" :minlevel 1
 
 #+BEGIN_HTML
-<link rel="stylesheet" type="text/css" href="css/glportal.css" />
-<link rel="stylesheet" type="text/css" href="css/slider.css" />
-<link rel="stylesheet" type="text/css" href="css/slider-custom.css" />
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <h1>GlPortal is a free 3d action adventure</h1>
 <div class="panel panel-default">

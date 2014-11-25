@@ -29,11 +29,13 @@
 </nav>
 </div><!-- /slider-wrapper -->
 
-<link rel="stylesheet" type="text/css" href="css/glportal.css" />
-<link rel="stylesheet" type="text/css" href="css/slider.css" />
-<link rel="stylesheet" type="text/css" href="css/slider-custom.css" />
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <h1>GlPortal is a free 3d action adventure</h1>
+
+<div class="row">
+
+
+<div class="col-md-8">
 <div class="panel panel-default">
   <div class="panel-body">
 <p>
@@ -46,17 +48,12 @@ If you encounter a bug, please report it.
 <div class="btn-group" role="group" aria-label="...">
 <a class="btn btn-normal btn-success btn-lg" target="_blank" href="http://www.indiedb.com/games/glportal/downloads"><i class="glyphicon glyphicon-download"></i> Download</a>
 <a class="btn btn-normal btn-primary  btn-lg" target="_blank" href="https://github.com/GlPortal/glPortal"><i class="glyphicon glyphicon-folder-close"></i> Source Code</a>
-<a class="btn btn-normal btn-success btn-lg" href="#help"><i class="glyphicon glyphicon-heart"></i> Help</a>
+<a class="btn btn-normal btn-lg" href="#help"><i class="glyphicon glyphicon-heart"></i> Help</a>
 <a class="btn btn-normal btn-danger btn-lg" target="_blank" href="http://bugs.glportal.de"><i class="glyphicon glyphicon-bullhorn"></i> Report a Bug</a>
 </div>
   </div>
-</div>
 
 
-<div class="row">
-
-
-<div class="col-md-8">
 <div class="jumbotron">
 
 <p>

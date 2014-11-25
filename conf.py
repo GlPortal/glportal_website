@@ -728,9 +728,6 @@ SEARCH_FORM = """
 # in the default template (base.tmpl).
 # (translatable)
 BODY_END = """
-<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
-<script type="text/javascript" src="js/jquery.slitslider.js"></script>
-<script type="text/javascript" src="js/slider.js"></script>
 <script type="text/javascript" src="js/scrollReveal.min.js"></script>
 <script type="text/javascript" src="js/glportal.js"></script>
 <!-- Piwik -->
