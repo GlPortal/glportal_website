@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1416950565.204662
+_modified_time = 1417035813.13356
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base_helper.tmpl'
 _template_uri = u'base_helper.tmpl'
@@ -30,7 +30,6 @@ def render_body(context,**pageargs):
         _mako_get_namespace(context, u'notes')._populate(_import_ns, [u'*'])
         __M_writer = context.writer()
         __M_writer(u'\n')
-        __M_writer(u'\n')
         __M_writer(u'\n\n')
         __M_writer(u'\n\n\n')
         __M_writer(u'\n\n')
@@ -49,11 +48,9 @@ def render_late_load_js(context):
         _mako_get_namespace(context, u'notes')._populate(_import_ns, [u'*'])
         lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         colorbox_locales = _import_ns.get('colorbox_locales', context.get('colorbox_locales', UNDEFINED))
-        title = _import_ns.get('title', context.get('title', UNDEFINED))
         use_cdn = _import_ns.get('use_cdn', context.get('use_cdn', UNDEFINED))
-        social_buttons_code = _import_ns.get('social_buttons_code', context.get('social_buttons_code', UNDEFINED))
-        post = _import_ns.get('post', context.get('post', UNDEFINED))
         use_bundles = _import_ns.get('use_bundles', context.get('use_bundles', UNDEFINED))
+        social_buttons_code = _import_ns.get('social_buttons_code', context.get('social_buttons_code', UNDEFINED))
         __M_writer = context.writer()
         __M_writer(u'\n')
         if use_bundles:
@@ -71,8 +68,6 @@ def render_late_load_js(context):
             __M_writer(u'        <script src="/assets/js/colorbox-i18n/jquery.colorbox-')
             __M_writer(unicode(colorbox_locales[lang]))
             __M_writer(u'.js"></script>\n')
-        if title and not post.meta('splitslider'):
-            __M_writer(u'        <script type="text/javascript" src="/assets/js/jquery.ba-cond.min.js"></script>\n        <script type="text/javascript" src="/assets/js/jquery.splitslider.js"></script>\n        <script type="text/javascript" src="/assets/js/slider.js"></script>\n')
         __M_writer(u'    ')
         __M_writer(unicode(social_buttons_code))
         __M_writer(u'\n')
@@ -86,29 +81,31 @@ def render_html_headstart(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, u'notes')._populate(_import_ns, [u'*'])
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
-        extra_head_data = _import_ns.get('extra_head_data', context.get('extra_head_data', UNDEFINED))
-        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
         prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
-        description = _import_ns.get('description', context.get('description', UNDEFINED))
+        use_cdn = _import_ns.get('use_cdn', context.get('use_cdn', UNDEFINED))
+        mathjax_config = _import_ns.get('mathjax_config', context.get('mathjax_config', UNDEFINED))
+        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
+        comment_system = _import_ns.get('comment_system', context.get('comment_system', UNDEFINED))
+        blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
+        use_open_graph = _import_ns.get('use_open_graph', context.get('use_open_graph', UNDEFINED))
         title = _import_ns.get('title', context.get('title', UNDEFINED))
         url_replacer = _import_ns.get('url_replacer', context.get('url_replacer', UNDEFINED))
         is_rtl = _import_ns.get('is_rtl', context.get('is_rtl', UNDEFINED))
-        use_cdn = _import_ns.get('use_cdn', context.get('use_cdn', UNDEFINED))
-        mathjax_config = _import_ns.get('mathjax_config', context.get('mathjax_config', UNDEFINED))
+        comment_system_id = _import_ns.get('comment_system_id', context.get('comment_system_id', UNDEFINED))
+        extra_head_data = _import_ns.get('extra_head_data', context.get('extra_head_data', UNDEFINED))
+        description = _import_ns.get('description', context.get('description', UNDEFINED))
         nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
         striphtml = _import_ns.get('striphtml', context.get('striphtml', UNDEFINED))
-        favicons = _import_ns.get('favicons', context.get('favicons', UNDEFINED))
-        comment_system_id = _import_ns.get('comment_system_id', context.get('comment_system_id', UNDEFINED))
-        use_open_graph = _import_ns.get('use_open_graph', context.get('use_open_graph', UNDEFINED))
         def html_feedlinks():
             return render_html_feedlinks(context)
-        comment_system = _import_ns.get('comment_system', context.get('comment_system', UNDEFINED))
-        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
-        blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
-        twitter_card = _import_ns.get('twitter_card', context.get('twitter_card', UNDEFINED))
+        post = _import_ns.get('post', context.get('post', UNDEFINED))
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
+        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
+        favicons = _import_ns.get('favicons', context.get('favicons', UNDEFINED))
         def html_stylesheets():
             return render_html_stylesheets(context)
+        AttributeError = _import_ns.get('AttributeError', context.get('AttributeError', UNDEFINED))
+        twitter_card = _import_ns.get('twitter_card', context.get('twitter_card', UNDEFINED))
         __M_writer = context.writer()
         __M_writer(u'\n<!DOCTYPE html>\n<html\n')
         if use_open_graph or (twitter_card and twitter_card['use_twitter_cards']) or (comment_system == 'facebook'):
@@ -124,7 +121,15 @@ def render_html_headstart(context):
             __M_writer(u'dir="rtl" ')
         __M_writer(u'lang="')
         __M_writer(unicode(lang))
-        __M_writer(u'">\n    <head>\n    <meta charset="utf-8">\n')
+        __M_writer(u'">\n    <head>\n')
+
+        try:
+          slitslider = post.meta('slitslider')
+        except AttributeError:
+          slitslider = False
+        
+        
+        __M_writer(u'\n    <meta charset="utf-8">\n')
         if description:
             __M_writer(u'    <meta name="description" content="')
             __M_writer(unicode(description))
@@ -238,7 +243,6 @@ def render_html_stylesheets(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, u'notes')._populate(_import_ns, [u'*'])
-        title = _import_ns.get('title', context.get('title', UNDEFINED))
         notes = _mako_get_namespace(context, 'notes')
         use_cdn = _import_ns.get('use_cdn', context.get('use_cdn', UNDEFINED))
         has_custom_css = _import_ns.get('has_custom_css', context.get('has_custom_css', UNDEFINED))
@@ -247,8 +251,6 @@ def render_html_stylesheets(context):
         annotations = _import_ns.get('annotations', context.get('annotations', UNDEFINED))
         __M_writer = context.writer()
         __M_writer(u'\n   <link rel="stylesheet" type="text/css" href="css/glportal.css" />\n')
-        if title and not post.meta('splitslider'):
-            __M_writer(u'        <link rel="stylesheet" type="text/css" href="css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />\n')
         if use_bundles:
             if use_cdn:
                 __M_writer(u'            <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">\n            <link href="/assets/css/all.css" rel="stylesheet" type="text/css">\n')
@@ -335,6 +337,6 @@ def render_html_feedlinks(context):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 0, "32": 2, "33": 3, "34": 66, "35": 98, "36": 133, "37": 156, "38": 170, "39": 178, "45": 68, "58": 68, "59": 69, "60": 70, "61": 71, "62": 74, "63": 75, "64": 77, "65": 78, "66": 79, "67": 81, "68": 82, "69": 87, "70": 89, "71": 90, "72": 90, "73": 90, "74": 92, "75": 93, "76": 97, "77": 97, "78": 97, "84": 4, "113": 4, "114": 8, "115": 9, "116": 10, "117": 11, "118": 13, "119": 14, "120": 16, "121": 17, "122": 19, "123": 22, "124": 23, "125": 26, "126": 26, "127": 26, "128": 29, "129": 30, "130": 30, "131": 30, "132": 32, "133": 33, "134": 33, "135": 33, "136": 33, "137": 35, "138": 35, "139": 36, "140": 36, "141": 37, "142": 38, "143": 38, "144": 38, "145": 40, "146": 41, "147": 42, "148": 43, "149": 43, "150": 43, "151": 43, "152": 43, "153": 43, "154": 43, "155": 46, "156": 47, "157": 48, "158": 48, "159": 48, "160": 50, "161": 51, "162": 52, "163": 52, "164": 52, "165": 54, "166": 55, "167": 55, "168": 55, "169": 57, "170": 58, "171": 58, "172": 59, "173": 60, "174": 61, "175": 62, "176": 62, "177": 62, "178": 64, "179": 65, "180": 65, "186": 135, "198": 135, "199": 136, "200": 137, "201": 138, "202": 138, "203": 138, "204": 140, "205": 141, "206": 142, "207": 142, "208": 142, "209": 142, "210": 142, "211": 143, "212": 144, "213": 144, "214": 144, "215": 144, "216": 144, "217": 147, "218": 148, "219": 149, "220": 150, "221": 150, "222": 150, "223": 150, "224": 150, "225": 151, "226": 152, "227": 152, "228": 152, "229": 152, "230": 152, "236": 101, "249": 101, "250": 103, "251": 104, "252": 107, "253": 108, "254": 109, "255": 111, "256": 112, "257": 114, "258": 115, "259": 116, "260": 117, "261": 118, "262": 120, "263": 124, "264": 125, "265": 128, "266": 129, "267": 129, "268": 129, "269": 130, "270": 131, "271": 131, "272": 131, "278": 172, "288": 172, "289": 173, "290": 174, "291": 175, "292": 175, "293": 175, "294": 175, "295": 175, "296": 175, "297": 175, "303": 158, "314": 158, "315": 159, "316": 160, "317": 160, "318": 160, "319": 161, "320": 162, "321": 163, "322": 164, "323": 164, "324": 164, "325": 164, "326": 164, "327": 166, "328": 167, "329": 167, "330": 167, "336": 330}, "uri": "base_helper.tmpl", "filename": "themes/glportal/templates/base_helper.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"22": 2, "25": 0, "32": 2, "33": 71, "34": 98, "35": 129, "36": 152, "37": 166, "38": 174, "44": 73, "55": 73, "56": 74, "57": 75, "58": 76, "59": 79, "60": 80, "61": 82, "62": 83, "63": 84, "64": 86, "65": 87, "66": 92, "67": 94, "68": 95, "69": 95, "70": 95, "71": 97, "72": 97, "73": 97, "79": 3, "110": 3, "111": 7, "112": 8, "113": 9, "114": 10, "115": 12, "116": 13, "117": 15, "118": 16, "119": 18, "120": 21, "121": 22, "122": 25, "123": 25, "124": 25, "125": 27, "132": 32, "133": 34, "134": 35, "135": 35, "136": 35, "137": 37, "138": 38, "139": 38, "140": 38, "141": 38, "142": 40, "143": 40, "144": 41, "145": 41, "146": 42, "147": 43, "148": 43, "149": 43, "150": 45, "151": 46, "152": 47, "153": 48, "154": 48, "155": 48, "156": 48, "157": 48, "158": 48, "159": 48, "160": 51, "161": 52, "162": 53, "163": 53, "164": 53, "165": 55, "166": 56, "167": 57, "168": 57, "169": 57, "170": 59, "171": 60, "172": 60, "173": 60, "174": 62, "175": 63, "176": 63, "177": 64, "178": 65, "179": 66, "180": 67, "181": 67, "182": 67, "183": 69, "184": 70, "185": 70, "191": 131, "203": 131, "204": 132, "205": 133, "206": 134, "207": 134, "208": 134, "209": 136, "210": 137, "211": 138, "212": 138, "213": 138, "214": 138, "215": 138, "216": 139, "217": 140, "218": 140, "219": 140, "220": 140, "221": 140, "222": 143, "223": 144, "224": 145, "225": 146, "226": 146, "227": 146, "228": 146, "229": 146, "230": 147, "231": 148, "232": 148, "233": 148, "234": 148, "235": 148, "241": 101, "253": 101, "254": 103, "255": 104, "256": 105, "257": 107, "258": 108, "259": 110, "260": 111, "261": 112, "262": 113, "263": 114, "264": 116, "265": 120, "266": 121, "267": 124, "268": 125, "269": 125, "270": 125, "271": 126, "272": 127, "273": 127, "274": 127, "280": 168, "290": 168, "291": 169, "292": 170, "293": 171, "294": 171, "295": 171, "296": 171, "297": 171, "298": 171, "299": 171, "305": 154, "316": 154, "317": 155, "318": 156, "319": 156, "320": 156, "321": 157, "322": 158, "323": 159, "324": 160, "325": 160, "326": 160, "327": 160, "328": 160, "329": 162, "330": 163, "331": 163, "332": 163, "338": 332}, "uri": "base_helper.tmpl", "filename": "themes/glportal/templates/base_helper.tmpl"}
 __M_END_METADATA
 """

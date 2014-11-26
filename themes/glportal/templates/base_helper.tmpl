@@ -1,5 +1,4 @@
 ## -*- coding: utf-8 -*-
-
 <%namespace name="notes" file="annotation_helper.tmpl" import="*" />
 <%def name="html_headstart()">
 <!DOCTYPE html>
@@ -25,6 +24,12 @@ dir="rtl" \
 \
 lang="${lang}">
     <head>
+<%
+try:
+  slitslider = post.meta('slitslider')
+except AttributeError:
+  slitslider = False
+%>
     <meta charset="utf-8">
     %if description:
     <meta name="description" content="${description}">
@@ -89,21 +94,12 @@ lang="${lang}">
     %if colorbox_locales[lang]:
         <script src="/assets/js/colorbox-i18n/jquery.colorbox-${colorbox_locales[lang]}.js"></script>
     %endif
-    %if title and not post.meta('splitslider'):
-        <script type="text/javascript" src="/assets/js/jquery.ba-cond.min.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.splitslider.js"></script>
-        <script type="text/javascript" src="/assets/js/slider.js"></script>
-    %endif
     ${social_buttons_code}
 </%def>
 
 
 <%def name="html_stylesheets()">
    <link rel="stylesheet" type="text/css" href="css/glportal.css" />
-   %if title and not post.meta('splitslider'):
-        <link rel="stylesheet" type="text/css" href="css/slider.css" />
-        <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />
-   %endif
     %if use_bundles:
         %if use_cdn:
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
