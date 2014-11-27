@@ -67,17 +67,22 @@ The player has to solve puzzles with the help of teleportation and physics manip
 </div>
 </div>
 <div class="col-md-4">
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Overview</h2>
+<div class="outline-text-2" id="text-1">
 <ul class="org-ul">
-<li>Overview
-</li>
-
 <li>Support Us
 </li>
 <li>Take a look at the game
 </li>
+</ul>
+</div>
+</div>
 
-<li>Features
-</li>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Features</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
 <li>Free and open game and engine
 </li>
 <li>Enthusiastic community
@@ -88,9 +93,11 @@ The player has to solve puzzles with the help of teleportation and physics manip
 
   </div>
 </div>
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">Take A Look</h2>
-<div class="outline-text-2" id="text-1">
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Take A Look</h2>
+<div class="outline-text-2" id="text-3">
 <a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
 <a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
 <a class="btn btn-normal btn-primary" href="https://www.youtube.com/results?search_query=glportal">Videos@Youtube</a>
@@ -99,16 +106,16 @@ The current release is v0.0.7.1 frogger
 </p>
 </div>
 </div>
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Getting Started</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">Getting Started</h2>
+<div class="outline-text-2" id="text-4">
 <a name="start"/>
 </div>
 </div>
 
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">Support Us</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5">Support Us</h2>
+<div class="outline-text-2" id="text-5">
 <p>
 You can support us by voting for us on:
 </p>
@@ -117,33 +124,30 @@ You can support us by voting for us on:
 <a class="btn btn-normal btn-primary" target="_blank" href="http://www.lgdb.org/game/glportal-free">LGDB</a>
 </div>
 </div>
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4">DUCIK</h2>
-</div>
-<div id="outline-container-sec-5" class="outline-2">
-<h2 id="sec-5">Join the Team</h2>
-<div class="outline-text-2" id="text-5">
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6">Join the Team</h2>
+<div class="outline-text-2" id="text-6">
 <p>
 FASDDS
 </p>
 </div>
-<div id="outline-container-sec-5-1" class="outline-3">
-<h3 id="sec-5-1">Developer</h3>
-<div class="outline-text-3" id="text-5-1">
+<div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1">Developer</h3>
+<div class="outline-text-3" id="text-6-1">
 <p>
 BALAHAL
 </p>
 </div>
 </div>
-<div id="outline-container-sec-5-2" class="outline-3">
-<h3 id="sec-5-2">Writer</h3>
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2">Writer</h3>
 </div>
-<div id="outline-container-sec-5-3" class="outline-3">
-<h3 id="sec-5-3">Manager</h3>
+<div id="outline-container-sec-6-3" class="outline-3">
+<h3 id="sec-6-3">Manager</h3>
 </div>
-<div id="outline-container-sec-5-4" class="outline-3">
-<h3 id="sec-5-4">Marketer</h3>
-<div class="outline-text-3" id="text-5-4">
+<div id="outline-container-sec-6-4" class="outline-3">
+<h3 id="sec-6-4">Marketer</h3>
+<div class="outline-text-3" id="text-6-4">
 <a name="join"/>
 <p data-sr="enter bottom and scale up 20% over 2s"> GlPortal rocks! </p>
 

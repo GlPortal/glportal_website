@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1417069496.583151
+_modified_time = 1417071632.285644
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base_helper.tmpl'
 _template_uri = u'base_helper.tmpl'
@@ -81,31 +81,29 @@ def render_html_headstart(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, u'notes')._populate(_import_ns, [u'*'])
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
+        extra_head_data = _import_ns.get('extra_head_data', context.get('extra_head_data', UNDEFINED))
+        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
         prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
-        use_cdn = _import_ns.get('use_cdn', context.get('use_cdn', UNDEFINED))
-        mathjax_config = _import_ns.get('mathjax_config', context.get('mathjax_config', UNDEFINED))
-        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
-        comment_system = _import_ns.get('comment_system', context.get('comment_system', UNDEFINED))
-        blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
-        use_open_graph = _import_ns.get('use_open_graph', context.get('use_open_graph', UNDEFINED))
+        description = _import_ns.get('description', context.get('description', UNDEFINED))
         title = _import_ns.get('title', context.get('title', UNDEFINED))
         url_replacer = _import_ns.get('url_replacer', context.get('url_replacer', UNDEFINED))
         is_rtl = _import_ns.get('is_rtl', context.get('is_rtl', UNDEFINED))
-        comment_system_id = _import_ns.get('comment_system_id', context.get('comment_system_id', UNDEFINED))
-        extra_head_data = _import_ns.get('extra_head_data', context.get('extra_head_data', UNDEFINED))
-        description = _import_ns.get('description', context.get('description', UNDEFINED))
+        use_cdn = _import_ns.get('use_cdn', context.get('use_cdn', UNDEFINED))
+        mathjax_config = _import_ns.get('mathjax_config', context.get('mathjax_config', UNDEFINED))
         nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
         striphtml = _import_ns.get('striphtml', context.get('striphtml', UNDEFINED))
+        favicons = _import_ns.get('favicons', context.get('favicons', UNDEFINED))
+        comment_system_id = _import_ns.get('comment_system_id', context.get('comment_system_id', UNDEFINED))
+        use_open_graph = _import_ns.get('use_open_graph', context.get('use_open_graph', UNDEFINED))
         def html_feedlinks():
             return render_html_feedlinks(context)
-        post = _import_ns.get('post', context.get('post', UNDEFINED))
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
-        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
-        favicons = _import_ns.get('favicons', context.get('favicons', UNDEFINED))
+        comment_system = _import_ns.get('comment_system', context.get('comment_system', UNDEFINED))
+        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
+        blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
+        twitter_card = _import_ns.get('twitter_card', context.get('twitter_card', UNDEFINED))
         def html_stylesheets():
             return render_html_stylesheets(context)
-        AttributeError = _import_ns.get('AttributeError', context.get('AttributeError', UNDEFINED))
-        twitter_card = _import_ns.get('twitter_card', context.get('twitter_card', UNDEFINED))
         __M_writer = context.writer()
         __M_writer(u'\n<!DOCTYPE html>\n<html\n')
         if use_open_graph or (twitter_card and twitter_card['use_twitter_cards']) or (comment_system == 'facebook'):
@@ -121,15 +119,7 @@ def render_html_headstart(context):
             __M_writer(u'dir="rtl" ')
         __M_writer(u'lang="')
         __M_writer(unicode(lang))
-        __M_writer(u'">\n    <head>\n')
-
-        try:
-          slitslider = post.meta('slitslider')
-        except AttributeError:
-          slitslider = False
-        
-        
-        __M_writer(u'\n    <meta charset="utf-8">\n')
+        __M_writer(u'">\n    <head>\n    <meta charset="utf-8">\n')
         if description:
             __M_writer(u'    <meta name="description" content="')
             __M_writer(unicode(description))
@@ -250,18 +240,18 @@ def render_html_stylesheets(context):
         use_bundles = _import_ns.get('use_bundles', context.get('use_bundles', UNDEFINED))
         annotations = _import_ns.get('annotations', context.get('annotations', UNDEFINED))
         __M_writer = context.writer()
-        __M_writer(u'\n   <link rel="stylesheet" type="text/css" href="css/glportal.css" />\n')
+        __M_writer(u'\n')
         if use_bundles:
             if use_cdn:
-                __M_writer(u'            <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">\n            <link href="/assets/css/all.css" rel="stylesheet" type="text/css">\n')
+                __M_writer(u'            <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">\n            <link href="/assets/css/all.css" rel="stylesheet" type="text/css">\n            <link rel="stylesheet" type="text/css" href="css/glportal.css" />\n')
             else:
-                __M_writer(u'            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">\n')
+                __M_writer(u'            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">\n            <link rel="stylesheet" type="text/css" href="css/glportal.css" />\n')
         else:
             if use_cdn:
                 __M_writer(u'            <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">\n')
             else:
                 __M_writer(u'            <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">\n')
-            __M_writer(u'        <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/code.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">\n')
+            __M_writer(u'        <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/code.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">\n        <link rel="stylesheet" type="text/css" href="css/glportal.css" />\n')
             if has_custom_css:
                 __M_writer(u'            <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">\n')
         if annotations and post and not post.meta('noannotations'):
@@ -337,6 +327,6 @@ def render_html_feedlinks(context):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"22": 2, "25": 0, "32": 2, "33": 71, "34": 98, "35": 129, "36": 152, "37": 166, "38": 174, "44": 73, "55": 73, "56": 74, "57": 75, "58": 76, "59": 79, "60": 80, "61": 82, "62": 83, "63": 84, "64": 86, "65": 87, "66": 92, "67": 94, "68": 95, "69": 95, "70": 95, "71": 97, "72": 97, "73": 97, "79": 3, "110": 3, "111": 7, "112": 8, "113": 9, "114": 10, "115": 12, "116": 13, "117": 15, "118": 16, "119": 18, "120": 21, "121": 22, "122": 25, "123": 25, "124": 25, "125": 27, "132": 32, "133": 34, "134": 35, "135": 35, "136": 35, "137": 37, "138": 38, "139": 38, "140": 38, "141": 38, "142": 40, "143": 40, "144": 41, "145": 41, "146": 42, "147": 43, "148": 43, "149": 43, "150": 45, "151": 46, "152": 47, "153": 48, "154": 48, "155": 48, "156": 48, "157": 48, "158": 48, "159": 48, "160": 51, "161": 52, "162": 53, "163": 53, "164": 53, "165": 55, "166": 56, "167": 57, "168": 57, "169": 57, "170": 59, "171": 60, "172": 60, "173": 60, "174": 62, "175": 63, "176": 63, "177": 64, "178": 65, "179": 66, "180": 67, "181": 67, "182": 67, "183": 69, "184": 70, "185": 70, "191": 131, "203": 131, "204": 132, "205": 133, "206": 134, "207": 134, "208": 134, "209": 136, "210": 137, "211": 138, "212": 138, "213": 138, "214": 138, "215": 138, "216": 139, "217": 140, "218": 140, "219": 140, "220": 140, "221": 140, "222": 143, "223": 144, "224": 145, "225": 146, "226": 146, "227": 146, "228": 146, "229": 146, "230": 147, "231": 148, "232": 148, "233": 148, "234": 148, "235": 148, "241": 101, "253": 101, "254": 103, "255": 104, "256": 105, "257": 107, "258": 108, "259": 110, "260": 111, "261": 112, "262": 113, "263": 114, "264": 116, "265": 120, "266": 121, "267": 124, "268": 125, "269": 125, "270": 125, "271": 126, "272": 127, "273": 127, "274": 127, "280": 168, "290": 168, "291": 169, "292": 170, "293": 171, "294": 171, "295": 171, "296": 171, "297": 171, "298": 171, "299": 171, "305": 154, "316": 154, "317": 155, "318": 156, "319": 156, "320": 156, "321": 157, "322": 158, "323": 159, "324": 160, "325": 160, "326": 160, "327": 160, "328": 160, "329": 162, "330": 163, "331": 163, "332": 163, "338": 332}, "uri": "base_helper.tmpl", "filename": "themes/glportal/templates/base_helper.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"22": 2, "25": 0, "32": 2, "33": 65, "34": 92, "35": 125, "36": 148, "37": 162, "38": 170, "44": 67, "55": 67, "56": 68, "57": 69, "58": 70, "59": 73, "60": 74, "61": 76, "62": 77, "63": 78, "64": 80, "65": 81, "66": 86, "67": 88, "68": 89, "69": 89, "70": 89, "71": 91, "72": 91, "73": 91, "79": 3, "108": 3, "109": 7, "110": 8, "111": 9, "112": 10, "113": 12, "114": 13, "115": 15, "116": 16, "117": 18, "118": 21, "119": 22, "120": 25, "121": 25, "122": 25, "123": 28, "124": 29, "125": 29, "126": 29, "127": 31, "128": 32, "129": 32, "130": 32, "131": 32, "132": 34, "133": 34, "134": 35, "135": 35, "136": 36, "137": 37, "138": 37, "139": 37, "140": 39, "141": 40, "142": 41, "143": 42, "144": 42, "145": 42, "146": 42, "147": 42, "148": 42, "149": 42, "150": 45, "151": 46, "152": 47, "153": 47, "154": 47, "155": 49, "156": 50, "157": 51, "158": 51, "159": 51, "160": 53, "161": 54, "162": 54, "163": 54, "164": 56, "165": 57, "166": 57, "167": 58, "168": 59, "169": 60, "170": 61, "171": 61, "172": 61, "173": 63, "174": 64, "175": 64, "181": 127, "193": 127, "194": 128, "195": 129, "196": 130, "197": 130, "198": 130, "199": 132, "200": 133, "201": 134, "202": 134, "203": 134, "204": 134, "205": 134, "206": 135, "207": 136, "208": 136, "209": 136, "210": 136, "211": 136, "212": 139, "213": 140, "214": 141, "215": 142, "216": 142, "217": 142, "218": 142, "219": 142, "220": 143, "221": 144, "222": 144, "223": 144, "224": 144, "225": 144, "231": 95, "243": 95, "244": 96, "245": 97, "246": 98, "247": 101, "248": 102, "249": 105, "250": 106, "251": 107, "252": 108, "253": 109, "254": 111, "255": 116, "256": 117, "257": 120, "258": 121, "259": 121, "260": 121, "261": 122, "262": 123, "263": 123, "264": 123, "270": 164, "280": 164, "281": 165, "282": 166, "283": 167, "284": 167, "285": 167, "286": 167, "287": 167, "288": 167, "289": 167, "295": 150, "306": 150, "307": 151, "308": 152, "309": 152, "310": 152, "311": 153, "312": 154, "313": 155, "314": 156, "315": 156, "316": 156, "317": 156, "318": 156, "319": 158, "320": 159, "321": 159, "322": 159, "328": 322}, "uri": "base_helper.tmpl", "filename": "themes/glportal/templates/base_helper.tmpl"}
 __M_END_METADATA
 """

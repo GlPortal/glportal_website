@@ -13,7 +13,6 @@
 #+INCLUDE: "slider.inc.org" :minlevel 1
 
 #+BEGIN_HTML
-<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <h1>GlPortal is a free 3d action adventure</h1>
 <div class="panel panel-default">
   <div class="panel-body">

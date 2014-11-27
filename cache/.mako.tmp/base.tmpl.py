@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1417069496.539214
+_modified_time = 1417071632.243684
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base.tmpl'
 _template_uri = u'base.tmpl'
@@ -78,7 +78,7 @@ def render_body(context,**pageargs):
         __M_writer(unicode(template_hooks['extra_head']()))
         __M_writer(u'\n')
         if post and post.meta('slitslider'):
-            __M_writer(u'        <link rel="stylesheet" type="text/css" href="css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />\n')
+            __M_writer(u'        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>\n        <link rel="stylesheet" type="text/css" href="css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />\n')
         __M_writer(u'</head>\n<body>\n<a href="#content" class="sr-only sr-only-focusable">')
         __M_writer(unicode(messages("Skip to main content")))
         __M_writer(u'</a>\n\n<!-- Menubar -->\n\n<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">\n    <div class="container"><!-- This keeps the margins nice -->\n        <div class="navbar-header">\n            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">\n            <span class="sr-only">Toggle navigation</span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            </button>\n            <a class="navbar-brand" href="')
@@ -246,6 +246,6 @@ def render_belowtitle(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 2, "28": 0, "67": 2, "68": 3, "69": 4, "70": 4, "71": 5, "72": 5, "77": 8, "78": 9, "79": 9, "80": 10, "81": 11, "82": 14, "83": 16, "84": 16, "85": 29, "86": 29, "87": 30, "88": 31, "89": 31, "90": 31, "91": 31, "92": 31, "93": 33, "94": 34, "95": 35, "96": 35, "97": 35, "98": 37, "99": 41, "100": 41, "101": 42, "102": 42, "103": 44, "104": 45, "105": 45, "106": 45, "107": 47, "112": 53, "113": 54, "114": 55, "119": 55, "120": 57, "121": 57, "122": 57, "123": 69, "124": 69, "129": 70, "130": 75, "131": 75, "132": 76, "133": 76, "134": 81, "135": 81, "136": 85, "137": 85, "138": 86, "139": 86, "140": 86, "141": 86, "146": 89, "147": 90, "148": 91, "149": 91, "150": 91, "151": 92, "152": 93, "153": 93, "154": 93, "155": 95, "156": 95, "157": 96, "158": 96, "159": 97, "160": 98, "161": 102, "167": 70, "181": 6, "190": 6, "196": 55, "210": 89, "224": 49, "236": 49, "237": 50, "238": 51, "239": 51, "240": 51, "241": 53, "247": 241}, "uri": "base.tmpl", "filename": "themes/glportal/templates/base.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 2, "28": 0, "67": 2, "68": 3, "69": 4, "70": 4, "71": 5, "72": 5, "77": 8, "78": 9, "79": 9, "80": 10, "81": 11, "82": 15, "83": 17, "84": 17, "85": 30, "86": 30, "87": 31, "88": 32, "89": 32, "90": 32, "91": 32, "92": 32, "93": 34, "94": 35, "95": 36, "96": 36, "97": 36, "98": 38, "99": 42, "100": 42, "101": 43, "102": 43, "103": 45, "104": 46, "105": 46, "106": 46, "107": 48, "112": 54, "113": 55, "114": 56, "119": 56, "120": 58, "121": 58, "122": 58, "123": 70, "124": 70, "129": 71, "130": 76, "131": 76, "132": 77, "133": 77, "134": 82, "135": 82, "136": 86, "137": 86, "138": 87, "139": 87, "140": 87, "141": 87, "146": 90, "147": 91, "148": 92, "149": 92, "150": 92, "151": 93, "152": 94, "153": 94, "154": 94, "155": 96, "156": 96, "157": 97, "158": 97, "159": 98, "160": 99, "161": 103, "167": 71, "181": 6, "190": 6, "196": 56, "210": 90, "224": 50, "236": 50, "237": 51, "238": 52, "239": 52, "240": 52, "241": 54, "247": 241}, "uri": "base.tmpl", "filename": "themes/glportal/templates/base.tmpl"}
 __M_END_METADATA
 """

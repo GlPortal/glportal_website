@@ -24,12 +24,6 @@ dir="rtl" \
 \
 lang="${lang}">
     <head>
-<%
-try:
-  slitslider = post.meta('slitslider')
-except AttributeError:
-  slitslider = False
-%>
     <meta charset="utf-8">
     %if description:
     <meta name="description" content="${description}">
@@ -99,13 +93,14 @@ except AttributeError:
 
 
 <%def name="html_stylesheets()">
-   <link rel="stylesheet" type="text/css" href="css/glportal.css" />
     %if use_bundles:
         %if use_cdn:
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
             <link href="/assets/css/all.css" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" type="text/css" href="css/glportal.css" />
         %else:
             <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" type="text/css" href="css/glportal.css" />
         %endif
     %else:
         %if use_cdn:
@@ -117,6 +112,7 @@ except AttributeError:
         <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/glportal.css" />
         %if has_custom_css:
             <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">
         %endif
