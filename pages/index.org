@@ -11,6 +11,13 @@
 #+END_COMMENT
 
 #+INCLUDE: "slider.inc.org" :minlevel 1
+#+MACRO: begin_panel #+HTML: <div class="panel panel-default"><div class="panel-body">
+#+MACRO: end_panel #+HTML: </div></div>
+#+MACRO: col #+HTML: <div class="col-md-$1">
+#+MACRO: anchor #+HTML: <span id="anchor-$1"/>
+#+MACRO: primary_button #+HTML: <a class="btn btn-normal btn-primary" target="_blank" href="$2">$1</a>
+#+MACRO: jumbotron #+HTML: <div class="jumbotron">
+#+MACRO: end #+HTML: </div>
 
 #+BEGIN_HTML
 <h1>GlPortal is a free 3d action adventure</h1>
@@ -23,7 +30,7 @@
 #+BEGIN_HTML
     </p>
 
-    <div class="btn-group" role="group" aria-label="...">
+    <div class="btn-group" role="group">
       <a class="btn btn-normal btn-success btn-lg" target="_blank" href="http://www.indiedb.com/games/glportal/downloads"><i class="glyphicon glyphicon-download"></i> Download</a>
       <a class="btn btn-normal btn-primary  btn-lg" target="_blank" href="https://github.com/GlPortal/glPortal"><i class="glyphicon glyphicon-folder-close"></i> Source Code</a>
       <a class="btn btn-normal btn-lg" href="#help"><i class="glyphicon glyphicon-heart"></i> Help</a>
@@ -36,26 +43,18 @@
 <div class="row">
 #+END_HTML
 
-
-#+BEGIN_HTML  
-  <div class="col-md-8">
-    <div class="jumbotron">
-#+END_HTML
+{{{col(8)}}}
+{{{jumbotron()}}}
 
       GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows and Mac OS X. 
 
       The player has to solve puzzles with the help of teleportation and physics manipulation.
 
-#+BEGIN_HTML  
-    </div>
-#+END_HTML
-#+BEGIN_HTML  
-  </div>
-#+END_HTML
-#+BEGIN_HTML  
-  <div class="col-md-4">
+{{{end()}}}
+{{{end()}}}
 
-#+END_HTML
+
+{{{col(4)}}}
 * Overview
 - Support Us
 - Take a look at the game
@@ -65,10 +64,9 @@
 - Enthusiastic community
 - Active Developers
 
-#+BEGIN_HTML  
-  </div>
-</div>
-#+END_HTML
+{{{end()}}}
+{{{end()}}}
+
 * Take A Look
 #+BEGIN_HTML
 <a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
@@ -77,31 +75,46 @@
 #+END_HTML
 The current release is v0.0.7.1 frogger
 * Getting Started
-
-#+BEGIN_HTML
-<a name="start"/>
-#+END_HTML
+{{{anchor(start)}}}
 
 * Support Us
+** Vote For Us
 You can support us by voting for us on:
-#+BEGIN_HTML
-<a name="help"/>
-<a class="btn btn-normal btn-primary" target="_blank" href="http://www.indiedb.com/games/glportal">Indiedb</a>
-<a class="btn btn-normal btn-primary" target="_blank" href="http://www.lgdb.org/game/glportal-free">LGDB</a>
-#+END_HTML
+
+{{{anchor(help)}}}
+{{{primary_button(Indiedb, http://www.indiedb.com/games/glportal)}}}
+{{{primary_button(LGDB, http://www.lgdb.org/game/glportal-free)}}}
+
+** Create Screenshots And Videos
 * Join the Team
+#+INCLUDE: "join.inc.org" :minlevel 1
+#+BEGIN_HTML 
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
 
-FASDDS
-** Developer
-BALAHAL
-** Writer
-** Manager
-** Marketer
-#+BEGIN_HTML  
-<a name="join"/>
-<p data-sr="enter bottom and scale up 20% over 2s"> GlPortal rocks! </p>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+#+END_HTML 
+Dies ist ein Test
+#+BEGIN_HTML 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 #+END_HTML
 
+
 Stuff
 Stuff
 
@@ -125,7 +138,10 @@ Stuff
 StuffStuff
 Stuff
 
-#+BEGIN_HTML  
+#+BEGIN_HTML 
+
+
+ 
 <div data-sr="wait 0.5s and then ease-in-out 200px"> 
   <p>GlPortal rocks!</p>
   <p>Stuff</p>

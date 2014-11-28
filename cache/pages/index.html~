@@ -28,8 +28,6 @@
 <span></span>
 </nav>
 </div><!-- /slider-wrapper -->
-
-<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <h1>GlPortal is a free 3d action adventure</h1>
 <div class="panel panel-default">
   <div class="panel-body">
@@ -40,7 +38,7 @@ If you encounter a bug, please report it.
 </p>
     </p>
 
-    <div class="btn-group" role="group" aria-label="...">
+    <div class="btn-group" role="group">
       <a class="btn btn-normal btn-success btn-lg" target="_blank" href="http://www.indiedb.com/games/glportal/downloads"><i class="glyphicon glyphicon-download"></i> Download</a>
       <a class="btn btn-normal btn-primary  btn-lg" target="_blank" href="https://github.com/GlPortal/glPortal"><i class="glyphicon glyphicon-folder-close"></i> Source Code</a>
       <a class="btn btn-normal btn-lg" href="#help"><i class="glyphicon glyphicon-heart"></i> Help</a>
@@ -52,9 +50,8 @@ If you encounter a bug, please report it.
 
 <div class="row">
 
-
 <div class="col-md-8">
-  <div class="jumbotron">
+<div class="jumbotron">
 
 <p>
 GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows and Mac OS X. 
@@ -66,6 +63,8 @@ The player has to solve puzzles with the help of teleportation and physics manip
 
 </div>
 </div>
+
+
 <div class="col-md-4">
 <div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1">Overview</h2>
@@ -91,10 +90,11 @@ The player has to solve puzzles with the help of teleportation and physics manip
 </li>
 </ul>
 
-  </div>
 </div>
 </div>
 </div>
+</div>
+
 <div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3">Take A Look</h2>
 <div class="outline-text-2" id="text-3">
@@ -109,47 +109,89 @@ The current release is v0.0.7.1 frogger
 <div id="outline-container-sec-4" class="outline-2">
 <h2 id="sec-4">Getting Started</h2>
 <div class="outline-text-2" id="text-4">
-<a name="start"/>
+<span id="anchor-start"/>
 </div>
 </div>
 
 <div id="outline-container-sec-5" class="outline-2">
 <h2 id="sec-5">Support Us</h2>
 <div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1">Vote For Us</h3>
+<div class="outline-text-3" id="text-5-1">
 <p>
 You can support us by voting for us on:
 </p>
-<a name="help"/>
-<a class="btn btn-normal btn-primary" target="_blank" href="http://www.indiedb.com/games/glportal">Indiedb</a>
-<a class="btn btn-normal btn-primary" target="_blank" href="http://www.lgdb.org/game/glportal-free">LGDB</a>
+
+<span id="anchor-help"/>
+<a class="btn btn-normal btn-primary" target="_blank" href=" http://www.indiedb.com/games/glportal">Indiedb</a>
+<a class="btn btn-normal btn-primary" target="_blank" href=" http://www.lgdb.org/game/glportal-free">LGDB</a>
+</div>
+</div>
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2">Create Screenshots And Videos</h3>
 </div>
 </div>
 <div id="outline-container-sec-6" class="outline-2">
 <h2 id="sec-6">Join the Team</h2>
 <div class="outline-text-2" id="text-6">
-<p>
-FASDDS
-</p>
-</div>
-<div id="outline-container-sec-6-1" class="outline-3">
-<h3 id="sec-6-1">Developer</h3>
-<div class="outline-text-3" id="text-6-1">
-<p>
-BALAHAL
-</p>
-</div>
-</div>
-<div id="outline-container-sec-6-2" class="outline-3">
-<h3 id="sec-6-2">Writer</h3>
-</div>
-<div id="outline-container-sec-6-3" class="outline-3">
-<h3 id="sec-6-3">Manager</h3>
-</div>
-<div id="outline-container-sec-6-4" class="outline-3">
-<h3 id="sec-6-4">Marketer</h3>
-<div class="outline-text-3" id="text-6-4">
 <a name="join"/>
 <p data-sr="enter bottom and scale up 20% over 2s"> GlPortal rocks! </p>
+<div class="panel panel-default">
+  <div class="panel-body">
+
+    <ul class="nav nav-tabs" role="tablist" id="myTab">
+      <li role="presentation" class="active"><a href="#teamDev" aria-controls="developer" role="tab" data-toggle="tab">Developer</a></li>
+      <li role="presentation"><a href="#teamWrit" aria-controls="writer" role="tab" data-toggle="tab">Writer</a></li>
+      <li role="presentation"><a href="#artist" aria-controls="artist" role="tab" data-toggle="tab">Artist</a></li>
+      <li role="presentation"><a href="#actor" aria-controls="actor" role="tab" data-toggle="tab">Actor</a></li>
+      <li role="presentation"><a href="#manager" aria-controls="manager" role="tab" data-toggle="tab">Manager</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="teamDev">
+        <ul>
+          <li>C++, Python and JavaScript</li>
+          
+        </ul>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="teamWrit">
+        <ul>
+          <li>Sophisticated Researcher</li>
+          <li>Takes the science part in science-fiction very seriously.<li>
+        </ul>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="profile">...</div>
+      <div role="tabpanel" class="tab-pane" id="messages">...</div>
+    </div>
+
+  </div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+<p>
+Dies ist ein Test
+</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <p>
 Stuff
@@ -186,6 +228,9 @@ StuffStuff
 Stuff
 </p>
 
+
+
+ 
 <div data-sr="wait 0.5s and then ease-in-out 200px"> 
   <p>GlPortal rocks!</p>
   <p>Stuff</p>
@@ -215,6 +260,5 @@ Stuff
 Stuff
 Stuff
 </p>
-</div>
 </div>
 </div>
