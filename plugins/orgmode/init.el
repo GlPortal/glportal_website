@@ -102,7 +102,25 @@ contextual information."
       (org-html--textarea-block src-block)
     (let ((lang (org-element-property :language src-block))
 	  (code (org-html-format-code src-block info)))
-      (pygmentize lang code))))
+      (if (and (org-export-read-attribute :attr_html src-block :bootstrap)
+               (string-equal lang 'org))
+          (bootstrapize src-block)
+        (pygmentize lang code)))))
+
+
+(defun bootstrapize (src-block)
+  (let ((text (car (org-export-unravel-code src-block)))
+        (component (org-export-read-attribute :attr_html src-block :component))
+        (extra-class (org-export-read-attribute :attr_html src-block :extra-class))
+        html)
+
+    (with-temp-buffer
+      (insert text)
+      (org-html-export-as-html nil nil t t)
+      (setq html (buffer-string))
+      (kill-buffer))
+
+    (format "<div class=\"%s %s\">\n %s </div>\n" component extra-class html)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

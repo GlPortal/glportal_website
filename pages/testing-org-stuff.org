@@ -1,0 +1,27 @@
+#+BEGIN_COMMENT
+.. title: Testing Org Stuff
+.. slug: testing-org-stuff
+.. date: 2014-11-29 09:53:16 UTC+01:00
+.. tags:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+Write your page here.
+
+#+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-md-8 col-sm-12
+#+BEGIN_SRC org
+    GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows
+    and Mac OS X.
+
+    The player has to solve puzzles with the help of teleportation and physics
+    manipulation.
+
+  ,** This is another section
+
+     What do we do here?
+
+     I have no idea!
+#+END_SRC
