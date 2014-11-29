@@ -4,26 +4,18 @@
 .. date: 2014-11-22 12:46:06 UTC+01:00
 .. tags: 
 .. link: 
-.. description: 
+.. description: Official Website of the free open source action adventure game GlPortal.
 .. type: text
 .. hidetitle: True
 .. slitslider: True
 #+END_COMMENT
 
-#+INCLUDE: "slider.inc.org" :minlevel 1
-#+MACRO: panel #+HTML: <div class="panel panel-default"><div class="panel-body">
-#+MACRO: end_panel #+HTML: </div></div>
-#+MACRO: col #+HTML: <div class="col-md-$1">
-#+MACRO: anchor #+HTML: <span id="anchor-$1"/>
-#+MACRO: primary_button #+HTML: <a class="btn btn-normal btn-primary" target="_blank" href="$2">$1</a>
-#+MACRO: jumbotron #+HTML: <div class="jumbotron">
-#+MACRO: end_jumbotron #+HTML: </div>
-#+MACRO: end #+HTML: </div>
-#+MACRO: row #+HTML: <row>
-#+MACRO: page_heading #+HTML: <h1>$1</h1>
-#+MACRO: heading #+HTML: <h2>$1</h2>
-#+MACRO: subheading #+HTML: <h3>$1</h3>
+#+ATTR_HTML: :bootstrap t :component panel
+#+BEGIN_SRC org
+Empty
+#+END_SRC
 
+#+INCLUDE: "slider.inc.org" :minlevel 1
 {{{page_heading(GlPortal is a free 3d action adventure)}}}
 {{{panel}}}
 #+BEGIN_HTML
@@ -41,18 +33,16 @@
       <a class="btn btn-normal btn-danger btn-lg" target="_blank" href="http://bugs.glportal.de"><i class="glyphicon glyphicon-bullhorn"></i> Report a Bug</a>
     </div>
 #+END_HTML
-{{{end_panel}}}
+{{{end_panel}}}  
 
-{{{col(8)}}}
-{{{jumbotron()}}}
+#+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-md-8
+#+BEGIN_SRC org
+    GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows
+    and Mac OS X.
 
-      GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows and Mac OS X. 
-
-      The player has to solve puzzles with the help of teleportation and physics manipulation.
-
-{{{end()}}}
-{{{end()}}}
-
+    The player has to solve puzzles with the help of teleportation and physics
+    manipulation.
+#+END_SRC
 
 {{{col(4)}}}
 {{{heading(Overview)}}}

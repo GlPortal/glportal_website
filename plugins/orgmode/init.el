@@ -109,7 +109,8 @@ contextual information."
 
 
 (defun bootstrapize (src-block)
-  (let ((text (car (org-export-unravel-code src-block)))
+  (let (
+        (text (car (org-export-unravel-code src-block)))
         (component (org-export-read-attribute :attr_html src-block :component))
         (extra-class (org-export-read-attribute :attr_html src-block :extra-class))
         html)
@@ -119,8 +120,12 @@ contextual information."
       (org-html-export-as-html nil nil t t)
       (setq html (buffer-string))
       (kill-buffer))
-
-    (format "<div class=\"%s %s\">\n %s </div>\n" component extra-class html)))
+    (cond((equal component "panel") (format "<div class=\"panel panel-default %s\">\n  <div class=\"panel-body\">\n %s \n  </div>\n</div>\n" (or extra-class "") html))
+         (t (format "<div class=\"%s %s\">\n %s </div>\n" component (or extra-class "") html))
+         )
+    )
+  
+  )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
