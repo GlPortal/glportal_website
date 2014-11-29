@@ -11,18 +11,22 @@
 #+END_COMMENT
 
 #+INCLUDE: "slider.inc.org" :minlevel 1
-#+MACRO: begin_panel #+HTML: <div class="panel panel-default"><div class="panel-body">
+#+MACRO: panel #+HTML: <div class="panel panel-default"><div class="panel-body">
 #+MACRO: end_panel #+HTML: </div></div>
 #+MACRO: col #+HTML: <div class="col-md-$1">
 #+MACRO: anchor #+HTML: <span id="anchor-$1"/>
 #+MACRO: primary_button #+HTML: <a class="btn btn-normal btn-primary" target="_blank" href="$2">$1</a>
 #+MACRO: jumbotron #+HTML: <div class="jumbotron">
+#+MACRO: end_jumbotron #+HTML: </div>
 #+MACRO: end #+HTML: </div>
+#+MACRO: row #+HTML: <row>
+#+MACRO: page_heading #+HTML: <h1>$1</h1>
+#+MACRO: heading #+HTML: <h2>$1</h2>
+#+MACRO: subheading #+HTML: <h3>$1</h3>
 
+{{{page_heading(GlPortal is a free 3d action adventure)}}}
+{{{panel}}}
 #+BEGIN_HTML
-<h1>GlPortal is a free 3d action adventure</h1>
-<div class="panel panel-default">
-  <div class="panel-body">
     <p>
 #+END_HTML
       Press download to get a build from indiedb or use the source button to get to our repository on github.
@@ -36,12 +40,8 @@
       <a class="btn btn-normal btn-lg" href="#help"><i class="glyphicon glyphicon-heart"></i> Help</a>
       <a class="btn btn-normal btn-danger btn-lg" target="_blank" href="http://bugs.glportal.de"><i class="glyphicon glyphicon-bullhorn"></i> Report a Bug</a>
     </div>
-  </div>
-</div>
-
-
-<div class="row">
 #+END_HTML
+{{{end_panel}}}
 
 {{{col(8)}}}
 {{{jumbotron()}}}
@@ -55,39 +55,47 @@
 
 
 {{{col(4)}}}
-* Overview
+{{{heading(Overview)}}}
 - Support Us
-- Take a look at the game
-
-* Features
+- Take a look at the 
+{{{heading(Features)}}}
 - Free and open game and engine
 - Enthusiastic community
 - Active Developers
 
-{{{end()}}}
-{{{end()}}}
+{{{end}}}
 
-* Take A Look
+{{{col(12)}}}
+{{{heading(Take A look)}}}
 #+BEGIN_HTML
 <a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
 <a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
 <a class="btn btn-normal btn-primary" href="https://www.youtube.com/results?search_query=glportal">Videos@Youtube</a>
 #+END_HTML
 The current release is v0.0.7.1 frogger
-* Getting Started
-{{{anchor(start)}}}
 
-* Support Us
-** Vote For Us
+{{{end}}}
+
+{{{col(12)}}}
+{{{heading(Getting Started)}}}
+{{{anchor(start)}}}
+{{{end}}}
+
+{{{col(12)}}}
+{{{heading(Support Us)}}}
+{{{subheading(Vote For Us)}}}
 You can support us by voting for us on:
 
 {{{anchor(help)}}}
 {{{primary_button(Indiedb, http://www.indiedb.com/games/glportal)}}}
 {{{primary_button(LGDB, http://www.lgdb.org/game/glportal-free)}}}
 
-** Create Screenshots And Videos
-* Join the Team
-#+INCLUDE: "join.inc.org" :minlevel 1
+{{{subheading(Create Screenshots And Videos)}}}
+{{{end}}}
+
+{{{col(12)}}}
+{{{heading(Join The Team)}}}
+#+INCLUDE: "join.inc.org" 
 #+BEGIN_HTML 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -167,3 +175,4 @@ Stuff
 
 Stuff
 Stuff
+{{{end}}}
