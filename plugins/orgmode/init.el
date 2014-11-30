@@ -117,6 +117,7 @@ contextual information."
 
     (with-temp-buffer
       (insert text)
+      (org-macro-replace-all nikola-macro-templates)
       (org-html-export-as-html nil nil t t)
       (setq html (buffer-string))
       (kill-buffer))

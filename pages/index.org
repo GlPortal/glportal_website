@@ -10,30 +10,21 @@
 .. slitslider: True
 #+END_COMMENT
 
-#+ATTR_HTML: :bootstrap t :component panel
-#+BEGIN_SRC org
-Empty
-#+END_SRC
-
 #+INCLUDE: "slider.inc.org" :minlevel 1
 {{{page_heading(GlPortal is a free 3d action adventure)}}}
-{{{panel}}}
+#+ATTR_HTML: :bootstrap t :component panel
+#+BEGIN_SRC org
+Press download to get a build from indiedb or use the source button to get to our repository on github.
+If you encounter a bug, please report it.
+{{{button_group}}}
 #+BEGIN_HTML
-    <p>
-#+END_HTML
-      Press download to get a build from indiedb or use the source button to get to our repository on github.
-      If you encounter a bug, please report it.
-#+BEGIN_HTML
-    </p>
-
-    <div class="btn-group" role="group">
       <a class="btn btn-normal btn-success btn-lg" target="_blank" href="http://www.indiedb.com/games/glportal/downloads"><i class="glyphicon glyphicon-download"></i> Download</a>
       <a class="btn btn-normal btn-primary  btn-lg" target="_blank" href="https://github.com/GlPortal/glPortal"><i class="glyphicon glyphicon-folder-close"></i> Source Code</a>
       <a class="btn btn-normal btn-lg" href="#help"><i class="glyphicon glyphicon-heart"></i> Help</a>
       <a class="btn btn-normal btn-danger btn-lg" target="_blank" href="http://bugs.glportal.de"><i class="glyphicon glyphicon-bullhorn"></i> Report a Bug</a>
-    </div>
 #+END_HTML
-{{{end_panel}}}  
+{{{end}}} 
+#+END_SRC
 
 #+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-md-8
 #+BEGIN_SRC org
@@ -52,6 +43,7 @@ Empty
 - Free and open game and engine
 - Enthusiastic community
 - Active Developers
+- Challenging Tasks
 
 {{{end}}}
 
