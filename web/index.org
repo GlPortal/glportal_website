@@ -12,43 +12,43 @@
 
 #+INCLUDE: "slider.inc.org" :minlevel 1
 {{{page_heading(GlPortal is a free 3d action adventure)}}}
+
 #+ATTR_HTML: :bootstrap t :component panel
 #+BEGIN_SRC org
-Press download to get a build from indiedb or use the source button to get to our repository on github.
-If you encounter a bug, please report it.
 {{{button_group}}}
-#+BEGIN_HTML
-      <a class="btn btn-normal btn-success btn-lg" target="_blank" href="http://www.indiedb.com/games/glportal/downloads"><i class="glyphicon glyphicon-download"></i> Download</a>
-      <a class="btn btn-normal btn-primary  btn-lg" target="_blank" href="https://github.com/GlPortal/glPortal"><i class="glyphicon glyphicon-folder-close"></i> Source Code</a>
-      <a class="btn btn-normal btn-lg" href="#help"><i class="glyphicon glyphicon-heart"></i> Help</a>
-      <a class="btn btn-normal btn-danger btn-lg" target="_blank" href="http://bugs.glportal.de"><i class="glyphicon glyphicon-bullhorn"></i> Report a Bug</a>
-#+END_HTML
+{{{large_primary_button(<i class="glyphicon glyphicon-download"></i> Download, http://www.indiedb.com/games/glportal/downloads)}}}
+{{{large_button(<i class="glyphicon glyphicon-folder-close"></i> Source Code, https://github.com/GlPortal/glPortal)}}}
+{{{large_button(<i class="glyphicon glyphicon-heart"></i> Help, #help)}}}
+{{{large_button(<i class="glyphicon glyphicon-bullhorn"></i> Report a Bug, http://bugs.glportal.de)}}}
 {{{end}}} 
 #+END_SRC
 
 #+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-md-8
 #+BEGIN_SRC org
-    GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows
-    and Mac OS X.
+GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows
+and Mac OS X.
 
-    The player has to solve puzzles with the help of teleportation and physics
-    manipulation.
+The player has to solve puzzles with the help of teleportation and physics
+manipulation.
 #+END_SRC
 
-{{{col(4)}}}
-{{{heading(Overview)}}}
+
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+#+BEGIN_SRC org
+,* Overview
 - Support Us
 - Take a look at the 
-{{{heading(Features)}}}
+- Discover the Story
+,* Features
 - Free and open game and engine
 - Enthusiastic community
 - Active Developers
 - Challenging Tasks
+#+END_SRC
 
-{{{end}}}
-
-{{{col(12)}}}
-{{{heading(Take A look)}}}
+#+ATTR_HTML: :bootstrap t :extra-class col-md-12
+#+BEGIN_SRC org
+,* Take a Look
 #+BEGIN_HTML
 <a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
 <a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
@@ -56,44 +56,45 @@ If you encounter a bug, please report it.
 #+END_HTML
 The current release is v0.0.7.1 frogger
 
-{{{end}}}
-
-{{{col(12)}}}
-{{{heading(Getting Started)}}}
+,* Getting Started
 {{{anchor(start)}}}
-{{{end}}}
 
-{{{col(12)}}}
-{{{heading(Support Us)}}}
-{{{subheading(Vote For Us)}}}
+
+,* Support Us
+,** Vote For Us
 You can support us by voting for us on:
 
 {{{anchor(help)}}}
 {{{primary_button(Indiedb, http://www.indiedb.com/games/glportal)}}}
 {{{primary_button(LGDB, http://www.lgdb.org/game/glportal-free)}}}
 
-{{{subheading(Create Screenshots And Videos)}}}
-{{{end}}}
+,** Create Screenshots And Videos
 
-{{{col(12)}}}
-{{{heading(Join The Team)}}}
-#+INCLUDE: "join.inc.org" 
+#+END_SRC
+
+#+ATTR_HTML: :bootstrap t :extra-class col-md-12
+#+BEGIN_SRC org
+{{{heading(Join the Team)}}}
+
 #+BEGIN_HTML 
 <!-- Button trigger modal -->
+
+<div data-sr="wait 0.3s and then ease-in-out 200px"> 
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
+  Join the Team
 </button>
+</div>
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h2 class="modal-title" id="myModalLabel">Join the Team</h4>
       </div>
       <div class="modal-body">
 #+END_HTML 
-Dies ist ein Test
+#+INCLUDE: "join.inc.org" 
 #+BEGIN_HTML 
       </div>
       <div class="modal-footer">
@@ -103,6 +104,12 @@ Dies ist ein Test
   </div>
 </div>
 #+END_HTML
+#+END_SRC
+
+
+
+
+
 
 
 Stuff

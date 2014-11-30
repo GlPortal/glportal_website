@@ -2,16 +2,22 @@
 #+MACRO: end_panel #+HTML: </div></div>
 #+MACRO: col #+HTML: <div class="col-md-$1">
 #+MACRO: anchor #+HTML: <span id="anchor-$1"/>
-#+MACRO: primary_button #+HTML: <a class="btn btn-normal btn-primary" target="_blank" href="$2">$1</a>
 #+MACRO: jumbotron #+HTML: <div class="jumbotron">
 #+MACRO: end_jumbotron #+HTML: </div>
 #+MACRO: end #+HTML: </div>
 #+MACRO: row #+HTML: <row>
+#+MACRO: begin_paragrap #+HTML: <p>
+#+MACRO: end_paragrap #+HTML: </p>
 #+MACRO: page_heading #+HTML: <h1>$1</h1>
 #+MACRO: heading #+HTML: <h2>$1</h2>
 #+MACRO: subheading #+HTML: <h3>$1</h3>
 #+MACRO: button_group #+HTML: <div class="btn-group" role="group">
+#+MACRO: primary_button #+HTML: <a class="btn btn-primary" target="_blank" href="$2">$1</a>
+#+MACRO: button #+HTML: <a class="btn btn-default" target="_blank" href="$2">$1</a>
+#+MACRO: large_primary_button #+HTML: <a class="btn btn-lg btn-primary" target="_blank" href="$2">$1</a>
+#+MACRO: large_button #+HTML: <a class="btn btn-lg btn-default" target="_blank" href="$2">$1</a>
 # Macros for embedding media into org-mode posts.
+#+MACRO: nest #+HTML: -NEST- $1 -/NEST-
 
 #+MACRO: gist #+HTML: <script src="https://gist.github.com/$1.js"></script>
 {{{gist(2395294)}}}

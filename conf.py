@@ -490,21 +490,11 @@ LICENSE = ""
 CONTENT_FOOTER = """
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   <div class="container">
-  Contents &copy; {date} {author}
+  Contents &copy; {date} {author} - Website Generator: Puneeth Chaganti
   </div>
 </nav>
 """
-# Things that will be passed to CONTENT_FOOTER.format().  This is done
-# for translatability, as dicts are not formattable.  Nikola will
-# intelligently format the setting properly.
-# The setting takes a dict. The keys are languages. The values are
-# tuples of tuples of positional arguments and dicts of keyword arguments
-# to format().  For example, {'en': (('Hello'), {'target': 'World'})}
-# results in CONTENT_FOOTER['en'].format('Hello', target='World').
-# WARNING: If you do not use multiple languages with CONTENT_FOOTER, this
-#          still needs to be a dict of this format.  (it can be empty if you
-#          do not need formatting)
-# (translatable)
+
 CONTENT_FOOTER_FORMATS = {
     DEFAULT_LANG: (
         (),

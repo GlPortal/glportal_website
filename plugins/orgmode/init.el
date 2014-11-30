@@ -121,12 +121,15 @@ contextual information."
       (org-html-export-as-html nil nil t t)
       (setq html (buffer-string))
       (kill-buffer))
-    (cond((equal component "panel") (format "<div class=\"panel panel-default %s\">\n  <div class=\"panel-body\">\n %s \n  </div>\n</div>\n" (or extra-class "") html))
-         (t (format "<div class=\"%s %s\">\n %s </div>\n" component (or extra-class "") html))
+    (cond((equal component "panel")
+          (format "<div class=\"panel panel-default %s\">\n  <div class=\"panel-body\">\n %s \n  </div>\n</div>\n" (or extra-class "") html))
+         ((equal component nil)
+          (format "<div class=\"%s\">\n %s \n </div>\n" (or extra-class "") html))
+          (t
+           (format "<div class=\"%s %s\">\n %s </div>\n" component (or extra-class "") html)))
+          )
          )
-    )
-  
-  )
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
