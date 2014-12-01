@@ -23,6 +23,11 @@
 {{{end}}} 
 #+END_SRC
 
+#+BEGIN_HTML 
+<div id="particles" style="position: fixed; left: 0px; top: 0px; height: 100%; width: 100%" >
+</div>
+#+END_HTML 
+
 #+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-md-8
 #+BEGIN_SRC org
 GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows
@@ -49,6 +54,7 @@ manipulation.
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
 #+BEGIN_SRC org
 ,* Take a Look
+Look at these videos, screenshots and concept art to get a feel of how the game is looking.
 #+BEGIN_HTML
 <a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
 <a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
@@ -74,8 +80,8 @@ You can support us by voting for us on:
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
 #+BEGIN_SRC org
-{{{heading(Join the Team)}}}
-
+,* Join the Team
+{{{link_popup(Join our Chat, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
 #+BEGIN_HTML 
 <!-- Button trigger modal -->
 

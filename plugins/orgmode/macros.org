@@ -18,6 +18,8 @@
 #+MACRO: large_button #+HTML: <a class="btn btn-lg btn-default" target="_blank" href="$2">$1</a>
 # Macros for embedding media into org-mode posts.
 #+MACRO: nest #+HTML: -NEST- $1 -/NEST-
+#+MACRO: link #+HTML: <a href="$2">$1</a>
+#+MACRO: link_popup #+HTML: <a href="$2" target="_blank">$1</a>
 
 #+MACRO: gist #+HTML: <script src="https://gist.github.com/$1.js"></script>
 {{{gist(2395294)}}}

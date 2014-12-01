@@ -11,3 +11,5 @@ $('#teamWrit a').click(function (e) {
   e.preventDefault()
   $(this).tab('teamWrit')
 })
+
+$('#particles').particleground();
