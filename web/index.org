@@ -122,12 +122,8 @@ You can support us by voting for us on:
 #+END_HTML
 #+END_SRC
 
-
-
-
-
-
-
+#+ATTR_HTML: :bootstrap t :extra-class col-md-12
+#+BEGIN_SRC org
 Stuff
 Stuff
 
@@ -181,6 +177,9 @@ Stuff
 Stuff
 Stuff
 {{{end}}}
+
+#+END_SRC
+
 #+BEGIN_HTML 
 </div>
 #+END_HTML 
