@@ -11,6 +11,10 @@
 #+END_COMMENT
 
 #+INCLUDE: "slider.inc.org" :minlevel 1
+#+BEGIN_HTML 
+<div class="start_article">
+#+END_HTML 
+
 {{{page_heading(GlPortal is a free 3d action adventure)}}}
 
 #+ATTR_HTML: :bootstrap t :component panel
@@ -24,7 +28,7 @@
 #+END_SRC
 
 #+BEGIN_HTML 
-<div id="particles" style="position: fixed; left: 0px; top: 0px; height: 100%; width: 100%" >
+<div id="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 100%; background-color: grey;" >
 </div>
 #+END_HTML 
 
@@ -171,3 +175,6 @@ Stuff
 Stuff
 Stuff
 {{{end}}}
+#+BEGIN_HTML 
+</div>
+#+END_HTML 

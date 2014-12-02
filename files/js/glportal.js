@@ -12,4 +12,7 @@ $('#teamWrit a').click(function (e) {
   $(this).tab('teamWrit')
 })
 
-$('#particles').particleground();
+$('#particles').particleground({
+    dotColor: '#ffffff',
+    lineColor: '#ffffff'
+});
