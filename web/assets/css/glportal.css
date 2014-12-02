@@ -13,5 +13,11 @@ body {
 }
 
 .sl-content-wrapper {
+    height; 399px !important;
     width: 1140px !important;
+}
+
+.sl-slider-wrapper {
+    height; 377px !important;
+    width: 100% !important;
 }

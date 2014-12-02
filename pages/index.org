@@ -15,17 +15,27 @@
 <div class="start_article">
 #+END_HTML 
 
-{{{page_heading(GlPortal is a free 3d action adventure)}}}
-
-#+ATTR_HTML: :bootstrap t :component panel
+#+ATTR_HTML: :bootstrap t :extra-class col-md-8
 #+BEGIN_SRC org
+{{{page_heading(GlPortal is a free 3d action adventure)}}}
+{{{panel}}}
 {{{button_group}}}
 {{{large_primary_button(<i class="glyphicon glyphicon-download"></i> Download, http://www.indiedb.com/games/glportal/downloads)}}}
 {{{large_button(<i class="glyphicon glyphicon-folder-close"></i> Source Code, https://github.com/GlPortal/glPortal)}}}
 {{{large_button(<i class="glyphicon glyphicon-heart"></i> Help, #help)}}}
 {{{large_button(<i class="glyphicon glyphicon-bullhorn"></i> Report a Bug, http://bugs.glportal.de)}}}
 {{{end}}} 
+{{{end_panel}}}
 #+END_SRC
+
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+#+BEGIN_SRC org
+,* Overview
+- Support Us
+- Take a look at the 
+- Discover the Story
+#+END_SRC
+
 
 #+BEGIN_HTML 
 <div id="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 100%; background-color: grey;" >
@@ -44,10 +54,6 @@ manipulation.
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-4
 #+BEGIN_SRC org
-,* Overview
-- Support Us
-- Take a look at the 
-- Discover the Story
 ,* Features
 - Free and open game and engine
 - Enthusiastic community

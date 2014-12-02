@@ -78,11 +78,11 @@
 		// maximum possible scale
 		maxScale : 2,
 		// slideshow on / off
-		autoplay : false,
+		autoplay : true,
 		// keyboard navigation
 		keyboard : true,
 		// time between transitions
-		interval : 4000,
+		interval : 6000,
 		// callbacks
 		onBeforeChange : function( slide, idx ) { return false; },
 		onAfterChange : function( slide, idx ) { return false; }
