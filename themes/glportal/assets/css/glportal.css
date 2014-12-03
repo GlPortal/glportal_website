@@ -2,22 +2,13 @@ body {
     margin-bottom: 20px;
 }
 
-#slider {
-#    margin-top: -23px !important;
-}
-
 .body-content {
+    margin-top: -23px !important;
     background-color: rgba(255, 255, 255, 0.60);
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.sl-content-wrapper {
-#    height; 399px !important;
-#    width: 1140px !important;
-}
-
 .sl-slider-wrapper {
-#    height; 377px !important;
     width: 100% !important;
 }
