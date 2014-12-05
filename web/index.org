@@ -30,6 +30,16 @@
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-4
 #+BEGIN_SRC org
+#+BEGIN_HTML 
+<nav>
+  <ul class="nav nav-pills nav-stacked span2">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+#+END_HTML 
 ,* Overview
 - Support Us
 - Take a look at the 
@@ -74,18 +84,6 @@ The current release is v0.0.7.1 frogger
 
 ,* Getting Started
 {{{anchor(start)}}}
-
-
-,* Support Us
-,** Vote For Us
-You can support us by voting for us on:
-
-{{{anchor(help)}}}
-{{{primary_button(Indiedb, http://www.indiedb.com/games/glportal)}}}
-{{{primary_button(LGDB, http://www.lgdb.org/game/glportal-free)}}}
-
-,** Create Screenshots And Videos
-
 #+END_SRC
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
@@ -124,6 +122,17 @@ You can support us by voting for us on:
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
 #+BEGIN_SRC org
+
+,* Support Us
+,** Vote For Us
+You can support us by voting for us on:
+
+{{{anchor(help)}}}
+{{{primary_button(Indiedb, http://www.indiedb.com/games/glportal)}}}
+{{{primary_button(LGDB, http://www.lgdb.org/game/glportal-free)}}}
+
+,** Create Screenshots And Videos
+
 Stuff
 Stuff
 
