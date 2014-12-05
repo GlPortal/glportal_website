@@ -110,13 +110,13 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/news/index.html", "News"),
-        ("/galleries/", "Galleries"),
+        ("/news/index.html", "<i class=\"glyphicon glyphicon-info-sign\"></i> News"),
+        ("/galleries/", "<i class=\"glyphicon glyphicon-picture\"></i> Galleries"),
         ((('/foo', 'FOO'),
           ('/bar', 'BAR')), 'BAZ'),
-        ("/archive.html", "Archive"),
-        ("/categories/index.html", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("/archive.html", "<i class=\"glyphicon glyphicon-folder-open\"</i> Archive"),
+        ("/categories/index.html", "<i class=\"glyphicon glyphicon-tag\"></i> Tags"),
+        ("/rss.xml", "<i class=\"glyphicon glyphicon-bell\"></i> RSS feed"),
     ),
 }
 

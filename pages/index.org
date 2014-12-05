@@ -33,16 +33,17 @@
 #+BEGIN_HTML 
 <nav>
   <ul class="nav nav-pills nav-stacked span2">
-    <li><a href="#" class="active">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#" class="active">Support Us</a></li>
+    <li><a href="#">Take a Look</a></li>
+    <li><a href="#">Discover the Story</a></li>
+    <li><a href="#start">Getting Started</a></li>
   </ul>
 </nav>
 
 #+END_HTML 
 ,* Overview
 - Support Us
-- Take a look at the 
+- Take a look
 - Discover the Story
 #+END_SRC
 
@@ -74,6 +75,7 @@ manipulation.
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
 #+BEGIN_SRC org
 ,* Take a Look
+{{{anchor(look)}}}
 Look at these videos, screenshots and concept art to get a feel of how the game is looking.
 #+BEGIN_HTML
 <a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
