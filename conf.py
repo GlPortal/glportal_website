@@ -490,7 +490,7 @@ LICENSE = ""
 CONTENT_FOOTER = """
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   <div class="container">
-  Contents &copy; {date} {author} - Website Generator: Puneeth Chaganti
+  <p class="navbar-text">Contents &copy; {date} {author} - Website Generator: Puneeth Chaganti</p>
   </div>
 </nav>
 """
