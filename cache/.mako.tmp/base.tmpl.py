@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1417813520.767021
+_modified_time = 1417983379.488145
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base.tmpl'
 _template_uri = u'base.tmpl'
@@ -78,7 +78,7 @@ def render_body(context,**pageargs):
         __M_writer(unicode(template_hooks['extra_head']()))
         __M_writer(u'\n')
         if post and post.meta('slitslider'):
-            __M_writer(u'        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>\n        <link rel="stylesheet" type="text/css" href="css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />\n')
+            __M_writer(u'        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider-custom.css" />\n')
         __M_writer(u'</head>\n<body>\n<a href="#content" class="sr-only sr-only-focusable">')
         __M_writer(unicode(messages("Skip to main content")))
         __M_writer(u'</a>\n\n<!-- Menubar -->\n\n<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">\n    <div class="container"><!-- This keeps the margins nice -->\n        <div class="navbar-header">\n            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">\n            <span class="sr-only">Toggle navigation</span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            </button>\n            <a class="navbar-brand" href="')
