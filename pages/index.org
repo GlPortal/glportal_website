@@ -17,7 +17,7 @@
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-10
 #+BEGIN_SRC org
-{{{page_heading(GlPortal is a free 3d action adventure)}}}
+{{{page_heading(GlPortal is a free 3d action adventure game)}}}
 
 {{{button_group}}}
 {{{large_primary_button(<i class="glyphicon glyphicon-download"></i> Download, http://www.indiedb.com/games/glportal/downloads)}}}
