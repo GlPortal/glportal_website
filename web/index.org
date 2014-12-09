@@ -20,7 +20,7 @@
 {{{page_heading(GlPortal is a free 3d action adventure game)}}}
 
 {{{button_group}}}
-{{{large_primary_button(<i class="glyphicon glyphicon-download"></i> Download, http://www.indiedb.com/games/glportal/downloads)}}}
+{{{large_primary_button(<i class="glyphicon glyphicon-download"></i> Download 0.0.7.1, http://www.indiedb.com/games/glportal/downloads)}}}
 {{{large_button(<i class="glyphicon glyphicon-folder-close"></i> Source Code, https://github.com/GlPortal/glPortal)}}}
 {{{large_button(<i class="glyphicon glyphicon-heart"></i> Help, #help)}}}
 {{{large_button(<i class="glyphicon glyphicon-bullhorn"></i> Report a Bug, http://bugs.glportal.de)}}}
@@ -71,10 +71,6 @@ Look at these videos, screenshots and concept art to get a feel of how the game 
 <a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
 <a class="btn btn-normal btn-primary" href="https://www.youtube.com/results?search_query=glportal">Videos@Youtube</a>
 #+END_HTML
-The current release is v0.0.7.1 frogger
-
-,* Getting Started
-{{{anchor(start)}}}
 #+END_SRC
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
