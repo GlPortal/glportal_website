@@ -149,7 +149,7 @@ Stuff
 
 
  
-<div data-sr="wait 0.5s and then ease-in-out 200px"> 
+<div data-sr="wait 0.1s and then ease-in-out 200px"> 
   <p>GlPortal rocks!</p>
   <p>Stuff</p>
   <p>StuffStuff</p>
