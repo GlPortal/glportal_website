@@ -38,7 +38,7 @@
 
 
 #+BEGIN_HTML 
-<div id="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 100%; background-color: grey;" >
+<div id="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 100%; background-color: #444444;" >
 </div>
 #+END_HTML 
 
