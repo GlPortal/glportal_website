@@ -15,7 +15,7 @@
 <div class="start_article">
 #+END_HTML 
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-10
+#+ATTR_HTML: :bootstrap t :extra-class col-md-9
 #+BEGIN_SRC org
 {{{page_heading(GlPortal is a free 3d action adventure game)}}}
 
@@ -28,7 +28,7 @@
 
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-2
+#+ATTR_HTML: :bootstrap t :extra-class col-md-3
 #+BEGIN_SRC org
 ,* Overview
 - Join the Team
@@ -42,7 +42,7 @@
 </div>
 #+END_HTML 
 
-#+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-md-10
+#+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-md-9
 #+BEGIN_SRC org
 GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows
 and Mac OS X.
@@ -51,7 +51,7 @@ The player has to solve puzzles with the help of teleportation and physics
 manipulation.
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-2
+#+ATTR_HTML: :bootstrap t :extra-class col-md-3
 #+BEGIN_SRC org
 ,* Features
 - Free and open game and engine
