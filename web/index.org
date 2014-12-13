@@ -17,7 +17,6 @@
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-9
 #+BEGIN_SRC org
-{{{page_heading(GlPortal is a free 3d action adventure game)}}}
 
 {{{button_group}}}
 {{{large_primary_button(<i class="glyphicon glyphicon-download"></i> Download 0.0.7.1, http://www.indiedb.com/games/glportal/downloads)}}}
@@ -28,14 +27,8 @@
 
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-3
-#+BEGIN_SRC org
-,* Overview
-- Join the Team
-- Take a look
-- Discover the Story
-#+END_SRC
-
+{{{col(3)}}}
+{{{end}}}
 
 #+BEGIN_HTML 
 <div id="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 100%; background-color: #444444;" >
@@ -53,6 +46,11 @@ manipulation.
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-3
 #+BEGIN_SRC org
+,* Overview
+- Join the Team
+- Take a look
+- Discover the Story
+
 ,* Features
 - Free and open game and engine
 - Enthusiastic community
