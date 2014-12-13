@@ -51,7 +51,6 @@ The player has to solve puzzles with the help of teleportation and physics
 manipulation.
 #+END_SRC
 
-
 #+ATTR_HTML: :bootstrap t :extra-class col-md-2
 #+BEGIN_SRC org
 ,* Features
@@ -61,11 +60,10 @@ manipulation.
 - Challenging Tasks
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-12
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4
 #+BEGIN_SRC org
 ,* Take a Look
 {{{anchor(look)}}}
-Look at these videos, screenshots and concept art to get a feel of how the game is going to look.
 #+BEGIN_HTML
 <a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
 <a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
@@ -73,11 +71,11 @@ Look at these videos, screenshots and concept art to get a feel of how the game 
 #+END_HTML
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-12
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4
 #+BEGIN_SRC org
 ,* Join the Team
-
-
+GlPortal works through the contributions of team members around the world. 
+You can add your skills to the mix and help shape the open source world permanently.
 {{{button(Join our Chat, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
 #+BEGIN_HTML 
 <!-- Button trigger modal -->
@@ -109,7 +107,7 @@ Look at these videos, screenshots and concept art to get a feel of how the game 
 #+END_HTML
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-12
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4
 #+BEGIN_SRC org
 
 ,* Support Us
@@ -121,7 +119,10 @@ You can support us by voting for us on:
 {{{primary_button(LGDB, http://www.lgdb.org/game/glportal-free)}}}
 
 ,** Create Screenshots And Videos
+#+END_SRC
 
+#+ATTR_HTML: :bootstrap t :extra-class col-md-12
+#+BEGIN_SRC org
 Stuff
 Stuff
 

@@ -13,6 +13,9 @@ $('#teamWrit a').click(function (e) {
 })
 
 $('#particles').particleground({
-    dotColor: '#ffffff',
-    lineColor: '#ffffff'
+    dotColor: '#595959',
+    lineColor: '#595959',
+    parallaxMultiplier: 40,
+    maxSpeedX: 0.1,
+    maxSpeedY: 0.1
 });
