@@ -15,9 +15,6 @@
 <div class="start_article">
 #+END_HTML 
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-9
-#+BEGIN_SRC org
-
 {{{button_group}}}
 {{{large_primary_button(<i class="glyphicon glyphicon-download"></i> Download 0.0.7.1, http://www.indiedb.com/games/glportal/downloads)}}}
 {{{large_button(<i class="glyphicon glyphicon-folder-close"></i> Source Code, https://github.com/GlPortal/glPortal)}}}
@@ -25,10 +22,6 @@
 {{{large_button(<i class="glyphicon glyphicon-bullhorn"></i> Report a Bug, http://bugs.glportal.de)}}}
 {{{end}}} 
 
-#+END_SRC
-
-{{{col(3)}}}
-{{{end}}}
 
 #+BEGIN_HTML 
 <div id="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 100%; background-color: #444444;" >
@@ -62,11 +55,13 @@ manipulation.
 #+BEGIN_SRC org
 ,* Take a Look
 {{{anchor(look)}}}
+{{{button_group}}}
 #+BEGIN_HTML
 <a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
 <a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
 <a class="btn btn-normal btn-primary" href="https://www.youtube.com/results?search_query=glportal">Videos@Youtube</a>
 #+END_HTML
+{{{end}}}
 #+END_SRC
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-4
