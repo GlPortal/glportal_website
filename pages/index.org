@@ -14,12 +14,12 @@
 #+BEGIN_HTML 
 <div class="start_article">
 #+END_HTML 
-
-{{{button_group}}}
+{{{just_button_group}}}
 {{{large_primary_button(<i class="glyphicon glyphicon-download"></i> Download 0.0.7.1, http://www.indiedb.com/games/glportal/downloads)}}}
 {{{large_button(<i class="glyphicon glyphicon-folder-close"></i> Source Code, https://github.com/GlPortal/glPortal)}}}
 {{{large_button(<i class="glyphicon glyphicon-heart"></i> Help, #help)}}}
 {{{large_button(<i class="glyphicon glyphicon-bullhorn"></i> Report a Bug, http://bugs.glportal.de)}}}
+{{{large_button(<i class="glyphicon glyphicon-bullhorn"></i> Wonderful Stuff, http://bugs.glportal.de)}}}
 {{{end}}} 
 
 
@@ -54,12 +54,13 @@ manipulation.
 #+ATTR_HTML: :bootstrap t :extra-class col-md-4
 #+BEGIN_SRC org
 ,* Take a Look
+
 {{{anchor(look)}}}
 {{{button_group}}}
 #+BEGIN_HTML
-<a class="btn btn-normal btn-primary" href="/galleries/screenshots/">Screenshots</a>
-<a class="btn btn-normal btn-primary" href="/galleries/art/">Game Art</a>
-<a class="btn btn-normal btn-primary" href="https://www.youtube.com/results?search_query=glportal">Videos@Youtube</a>
+<a class="btn btn-default" href="/galleries/screenshots/">Screenshots</a>
+<a class="btn btn-default" href="/galleries/art/">Game Art</a>
+<a class="btn btn-default" href="https://www.youtube.com/results?search_query=glportal">Videos@Youtube</a>
 #+END_HTML
 {{{end}}}
 #+END_SRC

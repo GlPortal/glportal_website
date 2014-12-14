@@ -12,6 +12,7 @@
 #+MACRO: heading #+HTML: <h2>$1</h2>
 #+MACRO: subheading #+HTML: <h3>$1</h3>
 #+MACRO: button_group #+HTML: <div class="btn-group" role="group">
+#+MACRO: just_button_group #+HTML: <div class="btn-group btn-group-justified" role="group">
 #+MACRO: primary_button #+HTML: <a class="btn btn-primary" target="_blank" href="$2">$1</a>
 #+MACRO: button #+HTML: <a class="btn btn-default" target="_blank" href="$2">$1</a>
 #+MACRO: large_primary_button #+HTML: <a class="btn btn-lg btn-primary" target="_blank" href="$2">$1</a>

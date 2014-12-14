@@ -10,3 +10,8 @@ body {
 .sl-slider-wrapper {
     width: 100% !important;
 }
+
+.btn-group-justified {
+    margin-top: -3px;
+    z-index: 10;
+}
