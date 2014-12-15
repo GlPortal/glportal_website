@@ -29,3 +29,13 @@ body {
         display: none;
     }
 }
+
+.slider-content-pull-down{
+    margin-top: 259px;
+}
+
+.slider-content-pull-right{
+    margin-top: 125px;
+    margin-left: 40%;
+    width: 400px;
+}
