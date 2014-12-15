@@ -38,12 +38,8 @@ manipulation.
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-3
 #+BEGIN_SRC org
-,* Overview
-- Join the Team
-- Take a look
-- Discover the Story
-
 ,* Features
+- Modern OpenGL implementation
 - Free and open game and engine
 - Enthusiastic community
 - Active Developers
