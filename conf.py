@@ -112,13 +112,13 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/news/index.html", "<i class=\"glyphicon glyphicon-info-sign\"></i> About"),
         ("/news/index.html", "<i class=\"glyphicon glyphicon-download\"></i> Download"),
-        ("/news/index.html", "<i class=\"glyphicon glyphicon-info-sign\"></i> News"),
+        ("/news/index.html", "<i class=\"fa fa-newspaper-o\"></i> News"),
         ("/galleries/", "<i class=\"glyphicon glyphicon-picture\"></i> Galleries"),
         ((('/foo', 'FOO'),
           ('/bar', 'BAR')), 'BAZ'),
         ("/archive.html", "<i class=\"glyphicon glyphicon-folder-open\"</i> Archive"),
         ("/categories/index.html", "<i class=\"glyphicon glyphicon-tag\"></i> Tags"),
-        ("/rss.xml", "<i class=\"glyphicon glyphicon-bell\"></i> RSS feed"),
+        ("/rss.xml", "<i class=\"fa fa-rss\"></i> RSS feed"),
     ),
 }
 

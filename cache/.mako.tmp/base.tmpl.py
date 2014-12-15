@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1418591651.199318
+_modified_time = 1418631866.372602
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base.tmpl'
 _template_uri = u'base.tmpl'
@@ -78,7 +78,7 @@ def render_body(context,**pageargs):
         __M_writer(unicode(template_hooks['extra_head']()))
         __M_writer(u'\n')
         if post and post.meta('slitslider'):
-            __M_writer(u'        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider-custom.css" />\n')
+            __M_writer(u'        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider-custom.css" />\n        <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />\n')
         __M_writer(u'</head>\n<body>\n<a href="#content" class="sr-only sr-only-focusable">')
         __M_writer(unicode(messages("Skip to main content")))
         __M_writer(u'</a>\n\n<!-- Menubar -->\n\n<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">\n    <div class="container"><!-- This keeps the margins nice -->\n        <div class="navbar-header">\n            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">\n            <span class="sr-only">Toggle navigation</span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            </button>\n            <a class="navbar-brand" href="')
@@ -246,6 +246,6 @@ def render_belowtitle(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 2, "28": 0, "67": 2, "68": 3, "69": 4, "70": 4, "71": 5, "72": 5, "77": 8, "78": 9, "79": 9, "80": 10, "81": 11, "82": 15, "83": 17, "84": 17, "85": 30, "86": 30, "87": 31, "88": 32, "89": 32, "90": 32, "91": 32, "92": 32, "93": 34, "94": 35, "95": 36, "96": 36, "97": 36, "98": 38, "99": 42, "100": 42, "101": 43, "102": 43, "103": 45, "104": 46, "105": 46, "106": 46, "107": 48, "112": 54, "113": 55, "114": 56, "119": 56, "120": 58, "121": 58, "122": 58, "123": 70, "124": 70, "129": 71, "130": 76, "131": 76, "132": 77, "133": 77, "134": 82, "135": 82, "136": 86, "137": 86, "138": 87, "139": 87, "140": 87, "141": 87, "146": 90, "147": 91, "148": 92, "149": 92, "150": 92, "151": 93, "152": 94, "153": 94, "154": 94, "155": 96, "156": 96, "157": 97, "158": 97, "159": 98, "160": 99, "161": 103, "167": 71, "181": 6, "190": 6, "196": 56, "210": 90, "224": 50, "236": 50, "237": 51, "238": 52, "239": 52, "240": 52, "241": 54, "247": 241}, "uri": "base.tmpl", "filename": "themes/glportal/templates/base.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 2, "28": 0, "67": 2, "68": 3, "69": 4, "70": 4, "71": 5, "72": 5, "77": 8, "78": 9, "79": 9, "80": 10, "81": 11, "82": 16, "83": 18, "84": 18, "85": 31, "86": 31, "87": 32, "88": 33, "89": 33, "90": 33, "91": 33, "92": 33, "93": 35, "94": 36, "95": 37, "96": 37, "97": 37, "98": 39, "99": 43, "100": 43, "101": 44, "102": 44, "103": 46, "104": 47, "105": 47, "106": 47, "107": 49, "112": 55, "113": 56, "114": 57, "119": 57, "120": 59, "121": 59, "122": 59, "123": 71, "124": 71, "129": 72, "130": 77, "131": 77, "132": 78, "133": 78, "134": 83, "135": 83, "136": 87, "137": 87, "138": 88, "139": 88, "140": 88, "141": 88, "146": 91, "147": 92, "148": 93, "149": 93, "150": 93, "151": 94, "152": 95, "153": 95, "154": 95, "155": 97, "156": 97, "157": 98, "158": 98, "159": 99, "160": 100, "161": 104, "167": 72, "181": 6, "190": 6, "196": 57, "210": 91, "224": 51, "236": 51, "237": 52, "238": 53, "239": 53, "240": 53, "241": 55, "247": 241}, "uri": "base.tmpl", "filename": "themes/glportal/templates/base.tmpl"}
 __M_END_METADATA
 """
