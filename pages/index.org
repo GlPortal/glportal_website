@@ -15,10 +15,10 @@
 <div class="start_article">
 #+END_HTML 
 {{{main_button_group}}}
-{{{large_primary_button(<i class="fa fa-download fa-3x"></i> Download 0.0.7.1, http://www.indiedb.com/games/glportal/downloads)}}}
-{{{large_button(<i class="fa fa-github fa-3x"></i> Source Code, https://github.com/GlPortal/glPortal)}}}
-{{{large_button(<i class="fa fa-users fa-3x"></i> Join the Team, #help)}}}
-{{{large_button(<i class="fa fa-bug fa-3x"></i> Report a Bug, http://bugs.glportal.de)}}}
+{{{large_primary_button(<i class="fa fa-download fa-3x"></i> <span>Download 0.0.7.1</span>, http://www.indiedb.com/games/glportal/downloads)}}}
+{{{large_button(<i class="fa fa-github fa-3x"></i> <span>Source Code</span>, https://github.com/GlPortal/glPortal)}}}
+{{{large_button(<i class="fa fa-users fa-3x"></i> <span>Join the Team</span>, #help)}}}
+{{{large_button(<i class="fa fa-bug fa-3x"></i> <span>Report a Bug</span>, http://bugs.glportal.de)}}}
 {{{end}}} 
 
 
