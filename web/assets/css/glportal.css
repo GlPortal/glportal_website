@@ -18,5 +18,8 @@ body {
 
 .fa {
     vertical-align: middle;
+}
+
+.main-btn-group.fa {
     margin-right: 25px;
 }

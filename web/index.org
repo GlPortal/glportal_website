@@ -14,7 +14,7 @@
 #+BEGIN_HTML 
 <div class="start_article">
 #+END_HTML 
-{{{just_button_group}}}
+{{{main_button_group}}}
 {{{large_primary_button(<i class="fa fa-download fa-3x"></i> Download 0.0.7.1, http://www.indiedb.com/games/glportal/downloads)}}}
 {{{large_button(<i class="fa fa-github fa-3x"></i> Source Code, https://github.com/GlPortal/glPortal)}}}
 {{{large_button(<i class="fa fa-heart fa-3x"></i> Join Us, #help)}}}
