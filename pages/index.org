@@ -13,15 +13,13 @@
 #+INCLUDE: "slider.inc.org" :minlevel 1
 #+BEGIN_HTML 
 <div class="start_article">
-#+END_HTML 
+#+END_HTML
 {{{main_button_group}}}
 {{{large_primary_button(<i class="fa fa-download fa-3x"></i> <span>Download 0.0.7.1</span>, http://www.indiedb.com/games/glportal/downloads)}}}
 {{{large_button(<i class="fa fa-github fa-3x"></i> <span>Source Code</span>, https://github.com/GlPortal/glPortal)}}}
 {{{large_button(<i class="fa fa-users fa-3x"></i> <span>Join the Team</span>, #help)}}}
 {{{large_button(<i class="fa fa-bug fa-3x"></i> <span>Report a Bug</span>, http://bugs.glportal.de)}}}
 {{{end}}} 
-
-
 #+BEGIN_HTML 
 <div id="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 100%; background-color: #444444;" >
 </div>
@@ -126,15 +124,6 @@ Stuff
 Stuff
 StuffStuff
 Stuff
-
-Stuff
-StuffStuff
-Stuff
-
-Stuff
-StuffStuff
-Stuff
-
 #+BEGIN_HTML 
 
 
@@ -156,13 +145,6 @@ Stuff
 
 Stuff
 StuffStuff
-Stuff
-
-Stuff
-StuffStuff
-Stuff
-
-Stuff
 Stuff
 {{{end}}}
 

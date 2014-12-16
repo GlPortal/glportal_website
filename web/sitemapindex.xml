@@ -6,15 +6,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://glportal.de/galleries/art/rss.xml</loc>
-  <lastmod>2014-12-15</lastmod>
+  <lastmod>2014-12-16</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://glportal.de/galleries/rss.xml</loc>
-  <lastmod>2014-12-15</lastmod>
+  <lastmod>2014-12-16</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://glportal.de/galleries/screenshots/rss.xml</loc>
-  <lastmod>2014-12-15</lastmod>
+  <lastmod>2014-12-16</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://glportal.de/galleries/screenshots/thumbs/rss.xml</loc>
@@ -30,6 +30,6 @@
  </sitemap>
  <sitemap>
   <loc>http://glportal.de/sitemap.xml</loc>
-  <lastmod>2014-12-15</lastmod>
+  <lastmod>2014-12-16</lastmod>
  </sitemap>
 </sitemapindex>

@@ -2,8 +2,7 @@ $(function() {
     var Page = (function() {
         var $nav = $( '#nav-dots > span' ),
             slitslider = $( '#slider' ).slitslider( {
-                autoSlide: true,
-                autoSlideTimeout: 100,
+                autoplay: true,
                 onBeforeChange : function( slide, pos ) {
                     $nav.removeClass( 'nav-dot-current' );
                     $nav.eq( pos ).addClass( 'nav-dot-current' );

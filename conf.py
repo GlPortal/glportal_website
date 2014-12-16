@@ -111,7 +111,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/news/index.html", "<i class=\"glyphicon glyphicon-info-sign\"></i> About"),
-        ("/news/index.html", "<i class=\"glyphicon glyphicon-download\"></i> Download"),
+        ("/news/index.html", "<i class=\"fa fa-download\"></i> Download"),
         ("/news/index.html", "<i class=\"fa fa-newspaper-o\"></i> News"),
         ("/galleries/", "<i class=\"glyphicon glyphicon-picture\"></i> Galleries"),
         ((('/foo', 'FOO'),

@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1418677955.367974
+_modified_time = 1418717678.662813
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base.tmpl'
 _template_uri = u'base.tmpl'
@@ -157,7 +157,7 @@ def render_body(context,**pageargs):
         __M_writer(unicode(template_hooks['body_end']()))
         __M_writer(u'\n')
         if post and post.meta('slitslider'):
-            __M_writer(u'        <script type="text/javascript" src="/assets/js/jquery.ba-cond.min.js"></script>\n        <script type="text/javascript" src="/assets/js/jquery.slitslider.js"></script>\n        <script type="text/javascript" src="/assets/js/slider.js"></script>\n')
+            __M_writer(u'        <script type="text/javascript" src="/assets/js/jquery.ba-cond.min.js"></script>\n        <script type="text/javascript" src="/assets/js/jquery.slitslider-improved.js"></script>\n        <script type="text/javascript" src="/assets/js/slider.js"></script>\n')
         __M_writer(u'</body>\n</html>\n')
         return ''
     finally:
