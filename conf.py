@@ -490,9 +490,9 @@ LICENSE = ""
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = """
-<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+<nav class="navbar navbar-default navbar-bottom" role="navigation">
   <div class="container">
-  <p class="navbar-text">Contents &copy; {date} {author} - Website Generator by Puneeth Chaganti - Using emacs, org-mode and nikola</p>
+  <p class="navbar-text">&copy; {date} - Website created by Jason Pulkkinen, Puneeth Chaganti and {author} - Generated with emacs, org-mode and nikola</p>
   </div>
 </nav>
 """
