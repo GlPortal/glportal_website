@@ -1,6 +1,14 @@
+body {
+    background-color: #444444;
+}
+
 .body-content {
     margin-top: -23px !important;
     background-color: rgba(255, 255, 255, 0.85);
+}
+
+div.body-content div.row {
+    min-height: 600px;
 }
 
 .sl-slider-wrapper {
@@ -40,6 +48,14 @@
     margin-top: 125px;
     margin-left: 366px;
     width: 400px;
+}
+
+div.body-content nav.breadcrumbs {
+    margin-top: 15px;
+}
+
+div.body-content h1 {
+    margin-left: 10px;
 }
 
 @media (max-width: 480px) { ... }                         // Landscape phones and down

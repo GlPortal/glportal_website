@@ -12,10 +12,11 @@ $('#teamWrit a').click(function (e) {
   $(this).tab('teamWrit')
 })
 
-$('#particles').particleground({
+$('.particles').particleground({
     dotColor: '#595959',
     lineColor: '#595959',
-    parallaxMultiplier: 40,
+    density: 60000,
+    parallax: false,
     maxSpeedX: 0.1,
     maxSpeedY: 0.1
 });

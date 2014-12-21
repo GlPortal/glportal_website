@@ -723,9 +723,6 @@ SEARCH_FORM = ""
 # in the default template (base.tmpl).
 # (translatable)
 BODY_END = """
-<script type="text/javascript" src="js/scrollReveal.min.js"></script>
-<script type="text/javascript" src="js/jquery.particleground.min.js"></script>
-<script type="text/javascript" src="js/glportal.js"></script>
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
