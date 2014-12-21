@@ -15,7 +15,7 @@ $('#teamWrit a').click(function (e) {
 $('.particles').particleground({
     dotColor: '#595959',
     lineColor: '#595959',
-    density: 60000,
+    density: 50000,
     parallax: false,
     maxSpeedX: 0.1,
     maxSpeedY: 0.1
