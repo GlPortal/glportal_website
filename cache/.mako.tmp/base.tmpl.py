@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1419975064.394133
+_modified_time = 1419976209.20857
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base.tmpl'
 _template_uri = u'base.tmpl'
@@ -119,7 +119,7 @@ def render_body(context,**pageargs):
             __M_writer(u'\n')
         __M_writer(u'                ')
         __M_writer(unicode(template_hooks['menu_alt']()))
-        __M_writer(u'\n            </ul>\n        </div><!-- /.navbar-collapse -->\n    </div><!-- /.container -->\n</nav>\n\n<!-- End of Menubar -->\n\n<div class="container" id="content">\n    <div class="body-content">\n        <!--Body content-->\n        <div class="row">\n            ')
+        __M_writer(u'\n            </ul>\n        </div><!-- /.navbar-collapse -->\n    </div><!-- /.container -->\n</nav>\n\n<!-- End of Menubar -->\n\n<div class="container" id="content">\n    <div class="body-content">\n        <!--Body content-->\n        <div class="row first-row">\n            ')
         __M_writer(unicode(template_hooks['page_header']()))
         __M_writer(u'\n            ')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content'):
