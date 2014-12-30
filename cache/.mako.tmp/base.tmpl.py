@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1419976209.20857
+_modified_time = 1419981199.656911
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base.tmpl'
 _template_uri = u'base.tmpl'
@@ -76,9 +76,9 @@ def render_body(context,**pageargs):
 
         __M_writer(u'\n')
         __M_writer(unicode(template_hooks['extra_head']()))
-        __M_writer(u'\n')
+        __M_writer(u'\n<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />\n')
         if post and post.meta('slitslider'):
-            __M_writer(u'        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider-custom.css" />\n        <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />\n')
+            __M_writer(u'        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider-custom.css" />\n')
         __M_writer(u'</head>\n<body>\n<div class="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 33%; background-color: #444444;" >\n</div>\n<a href="#content" class="sr-only sr-only-focusable">')
         __M_writer(unicode(messages("Skip to main content")))
         __M_writer(u'</a>\n\n<!-- Menubar -->\n\n<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">\n    <div class="container"><!-- This keeps the margins nice -->\n        <div class="navbar-header">\n            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">\n            <span class="sr-only">Toggle navigation</span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            <span class="icon-bar"></span>\n            </button>\n            <a class="navbar-brand" href="')
@@ -126,7 +126,7 @@ def render_body(context,**pageargs):
             context['self'].content(**pageargs)
         
 
-        __M_writer(u'\n        </div>\n        <!--End of body content-->\n\n        <footer>\n            ')
+        __M_writer(u'\n        </div>\n        <!--End of body content-->\n        <div class="panel share-buttons">\n          <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=http://glportal.de" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>\n          <a href="https://twitter.com/intent/tweet?source=URL&text=TITLE: URL" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a>\n          <a href="https://plus.google.com/share?url=URL" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>\n          <a href="http://www.tumblr.com/share?v=3&u=URL&t=TITLE&s=" target="_blank" title="Post to Tumblr"><i class="fa fa-tumblr-square fa-2x"></i></a>\n          <a href="http://pinterest.com/pin/create/button/?url=URL&media=PREVIEWIMAGEURL&description=BRIEFDESCRIPTION" target="_blank" title="Pin it"><i class="fa fa-pinterest-square fa-2x"></i></a>\n          <a href="http://www.reddit.com/submit?url=URL&title=TITLE" target="_blank" title="Submit to Reddit"><i class="fa fa-reddit-square fa-2x"></i></a>\n          <a href="http://www.linkedin.com/shareArticle?mini=true&url=URL&title=TITLE&summary=BRIEFDESCRIPTION&source=URL" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>\n          <a href="http://wordpress.com/press-this.php?u=URL&t=TITLE&s=BRIEFDESCRIPTION&i=PREVIEWIMAGEURL" target="_blank" title="Publish on WordPress"><i class="fa fa-wordpress fa-2x"></i></a>\n          <a href="mailto:?subject=TITLE&body=BRIEFDESCRIPTION: URL" target="_blank" title="Email"><i class="fa fa-envelope fa-2x"></i></a>\n        </div>\n        <footer>\n            ')
         __M_writer(unicode(content_footer))
         __M_writer(u'\n            ')
         __M_writer(unicode(template_hooks['page_footer']()))
@@ -246,6 +246,6 @@ def render_belowtitle(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 2, "28": 0, "67": 2, "68": 3, "69": 4, "70": 4, "71": 5, "72": 5, "77": 8, "78": 9, "79": 9, "80": 10, "81": 11, "82": 16, "83": 20, "84": 20, "85": 33, "86": 33, "87": 34, "88": 35, "89": 35, "90": 35, "91": 35, "92": 35, "93": 37, "94": 38, "95": 39, "96": 39, "97": 39, "98": 41, "99": 45, "100": 45, "101": 46, "102": 46, "103": 48, "104": 49, "105": 49, "106": 49, "107": 51, "112": 57, "113": 58, "114": 59, "119": 59, "120": 61, "121": 61, "122": 61, "123": 73, "124": 73, "129": 74, "130": 79, "131": 79, "132": 80, "133": 80, "134": 85, "135": 85, "136": 89, "137": 89, "138": 90, "139": 90, "140": 90, "141": 90, "146": 93, "147": 94, "148": 95, "149": 95, "150": 95, "151": 96, "152": 97, "153": 97, "154": 97, "155": 99, "156": 99, "157": 100, "158": 100, "159": 101, "160": 102, "161": 106, "167": 74, "181": 6, "190": 6, "196": 59, "210": 93, "224": 53, "236": 53, "237": 54, "238": 55, "239": 55, "240": 55, "241": 57, "247": 241}, "uri": "base.tmpl", "filename": "themes/glportal/templates/base.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 2, "28": 0, "67": 2, "68": 3, "69": 4, "70": 4, "71": 5, "72": 5, "77": 8, "78": 9, "79": 9, "80": 11, "81": 12, "82": 16, "83": 20, "84": 20, "85": 33, "86": 33, "87": 34, "88": 35, "89": 35, "90": 35, "91": 35, "92": 35, "93": 37, "94": 38, "95": 39, "96": 39, "97": 39, "98": 41, "99": 45, "100": 45, "101": 46, "102": 46, "103": 48, "104": 49, "105": 49, "106": 49, "107": 51, "112": 57, "113": 58, "114": 59, "119": 59, "120": 61, "121": 61, "122": 61, "123": 73, "124": 73, "129": 74, "130": 89, "131": 89, "132": 90, "133": 90, "134": 95, "135": 95, "136": 99, "137": 99, "138": 100, "139": 100, "140": 100, "141": 100, "146": 103, "147": 104, "148": 105, "149": 105, "150": 105, "151": 106, "152": 107, "153": 107, "154": 107, "155": 109, "156": 109, "157": 110, "158": 110, "159": 111, "160": 112, "161": 116, "167": 74, "181": 6, "190": 6, "196": 59, "210": 103, "224": 53, "236": 53, "237": 54, "238": 55, "239": 55, "240": 55, "241": 57, "247": 241}, "uri": "base.tmpl", "filename": "themes/glportal/templates/base.tmpl"}
 __M_END_METADATA
 """
