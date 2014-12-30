@@ -7,7 +7,7 @@ body {
     background-color: rgba(255, 255, 255, 0.85);
 }
 
-div.body-content div.row {
+div.body-content .row:first-child {
     min-height: 600px;
 }
 
@@ -16,7 +16,6 @@ div.body-content div.row {
 }
 
 .btn-group-justified {
-    margin-top: -3px;
     z-index: 10;
 }
 

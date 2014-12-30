@@ -1,11 +1,12 @@
-#+MACRO: panel #+HTML: <div class="panel panel-default"><div class="panel-body">
-#+MACRO: end_panel #+HTML: </div></div>
+#+MACRO: content_panel #+HTML: <div class="panel panel-default"><div class="panel-body">
+#+MACRO: panel #+HTML: <div class="panel">
+#+MACRO: end_content_panel #+HTML: </div></div>
 #+MACRO: col #+HTML: <div class="col-md-$1">
 #+MACRO: anchor #+HTML: <span id="anchor-$1"/>
 #+MACRO: jumbotron #+HTML: <div class="jumbotron">
 #+MACRO: end_jumbotron #+HTML: </div>
 #+MACRO: end #+HTML: </div>
-#+MACRO: row #+HTML: <row>
+#+MACRO: row #+HTML: <div class="row">
 #+MACRO: begin_paragrap #+HTML: <p>
 #+MACRO: end_paragrap #+HTML: </p>
 #+MACRO: page_heading #+HTML: <h1>$1</h1>
@@ -19,7 +20,7 @@
 #+MACRO: large_primary_button #+HTML: <a class="btn btn-lg btn-primary" target="_blank" href="$2">$1</a>
 #+MACRO: large_button #+HTML: <a class="btn btn-lg btn-default" target="_blank" href="$2">$1</a>
 # Macros for embedding media into org-mode posts.
-#+MACRO: nest #+HTML: -NEST- $1 -/NEST-
+#+MACRO: plain #+HTML: $1
 #+MACRO: link #+HTML: <a href="$2">$1</a>
 #+MACRO: link_popup #+HTML: <a href="$2" target="_blank">$1</a>
 

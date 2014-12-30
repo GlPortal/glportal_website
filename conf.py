@@ -114,7 +114,7 @@ NAVIGATION_LINKS = {
         ("/news/index.html", "<i class=\"fa fa-download\"></i> Download"),
         ("/news/index.html", "<i class=\"fa fa-newspaper-o\"></i> News"),
         ("/galleries/", "<i class=\"glyphicon glyphicon-picture\"></i> Galleries"),
-        ((('/foo', 'FOO'),
+        ((('/foo', 'Media'),
           ('/bar', 'BAR')), 'BAZ'),
         ("/archive.html", "<i class=\"glyphicon glyphicon-folder-open\"</i> Archive"),
         ("/categories/index.html", "<i class=\"glyphicon glyphicon-tag\"></i> Tags"),

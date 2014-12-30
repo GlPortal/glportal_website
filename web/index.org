@@ -22,9 +22,8 @@
 {{{end}}}
 #+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-md-9
 #+BEGIN_SRC org
-GlPortal is a free as in freedom game and game engine for GNU/Linux, Windows
-and Mac OS X.
-
+GlPortal is a free as in freedom game and game engine for /GNU/Linux/, /Windows/
+and /Mac OS X/. 
 The player has to solve puzzles with the help of teleportation and physics
 manipulation.
 #+END_SRC
@@ -39,34 +38,30 @@ manipulation.
 - Challenging Tasks
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4 
 #+BEGIN_SRC org
 ,* Take a Look
 
 {{{anchor(look)}}}
-{{{button_group}}}
 #+BEGIN_HTML
-<a class="btn btn-default" href="/galleries/screenshots/">Screenshots</a>
-<a class="btn btn-default" href="/galleries/art/">Game Art</a>
-<a class="btn btn-default" href="https://www.youtube.com/results?search_query=glportal">Videos@Youtube</a>
+Download the game and try it or take a look at our
+<a href="/galleries/screenshots/">Screenshots</a>
+and
+<a href="/galleries/art/">Game Art</a>
+<a href="https://www.youtube.com/results?search_query=glportal"><i class="fa fa-youtube-play"></i>
+ Videos</a>
 #+END_HTML
-{{{end}}}
+{{{button(View Details, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
 #+END_SRC
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-4
 #+BEGIN_SRC org
 ,* Join the Team
 GlPortal works through the contributions of team members around the world. 
-You can add your skills to the mix and help shape the open source world permanently.
-{{{button(Join our Chat, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
+You can add your skills to the mix and help shape the open source world permanently. 
+[[http://webchat.freenode.net/?channels=%23%23glportal&uio=d4][Join our Chat]]
 #+BEGIN_HTML 
 <!-- Button trigger modal -->
-
-<div data-sr="wait 0.3s and then ease-in-out 200px"> 
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Join the Team
-</button>
-</div>
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -93,16 +88,35 @@ You can add your skills to the mix and help shape the open source world permanen
 #+BEGIN_SRC org
 
 ,* Support Us
-,** Vote For Us
-You can support us by voting for us on:
-
 {{{anchor(help)}}}
-{{{primary_button(Indiedb, http://www.indiedb.com/games/glportal)}}}
-{{{primary_button(LGDB, http://www.lgdb.org/game/glportal-free)}}}
+You can support us by voting for us on [[http://www.indiedb.com/games/glportal][Indiedb]],
+[[http://www.lgdb.org/game/glportal-free][lgdb]] and [[http://www.mobygames.com/game/glportal][mobygames]].
+
 
 ,** Create Screenshots And Videos
 #+END_SRC
-
+{{{col(12)}}}
+{{{row}}}
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+#+BEGIN_SRC org
+{{{button(View Details, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
+#+END_SRC
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+#+BEGIN_SRC org
+#+BEGIN_HTML 
+<div data-sr="wait 0.3s and then ease-in-out 200px"> 
+<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+  View Details
+</button>
+</div>
+#+END_HTML 
+#+END_SRC
+#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+#+BEGIN_SRC org
+{{{button(View Details, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
+#+END_SRC
+{{{end}}}
+{{{end}}}
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
 #+BEGIN_SRC org
 Stuff
@@ -122,7 +136,18 @@ Stuff
 #+BEGIN_HTML 
 
 
- 
+<ul class="share-buttons">
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=URL" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+<li><a href="https://twitter.com/intent/tweet?source=URL&text=TITLE: URL" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+<li><a href="https://plus.google.com/share?url=URL" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+<li><a href="http://www.tumblr.com/share?v=3&u=URL&t=TITLE&s=" target="_blank" title="Post to Tumblr"><i class="fa fa-tumblr-square fa-2x"></i></a></li>
+<li><a href="http://pinterest.com/pin/create/button/?url=URL&media=PREVIEWIMAGEURL&description=BRIEFDESCRIPTION" target="_blank" title="Pin it"><i class="fa fa-pinterest-square fa-2x"></i></a></li>
+<li><a href="http://www.reddit.com/submit?url=URL&title=TITLE" target="_blank" title="Submit to Reddit"><i class="fa fa-reddit-square fa-2x"></i></a></li>
+<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=URL&title=TITLE&summary=BRIEFDESCRIPTION&source=URL" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+<li><a href="http://wordpress.com/press-this.php?u=URL&t=TITLE&s=BRIEFDESCRIPTION&i=PREVIEWIMAGEURL" target="_blank" title="Publish on WordPress"><i class="fa fa-wordpress fa-2x"></i></a></li>
+<li><a href="mailto:?subject=TITLE&body=BRIEFDESCRIPTION: URL" target="_blank" title="Email"><i class="fa fa-envelope fa-2x"></i></a></li>
+</ul>
+
 <div data-sr="wait 0.1s and then ease-in-out 200px"> 
   <p>GlPortal rocks!</p>
   <p>Stuff</p>
@@ -148,3 +173,4 @@ Stuff
 #+BEGIN_HTML 
 </div>
 #+END_HTML 
+
