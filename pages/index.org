@@ -51,7 +51,6 @@ and
 <a href="https://www.youtube.com/results?search_query=glportal"><i class="fa fa-youtube-play"></i>
  Videos</a>
 #+END_HTML
-{{{button(View Details, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
 #+END_SRC
 
 #+ATTR_HTML: :bootstrap t :extra-class col-md-4
