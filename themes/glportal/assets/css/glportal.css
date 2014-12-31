@@ -61,6 +61,14 @@ div.main-btn-group.btn-group.btn-group-justified a.btn.btn-lg {
    border-radius: 0;
 }
 
+.panel-heading h2 {
+    font-size: 18pt;
+    height: 50pt;
+    margin-top: -50pt;
+}
+
+
+
 @media (max-width: 480px) { ... }                         // Landscape phones and down
 @media (max-width: 767px) { ... }                         // Landscape phone to portrait tablet
 @media (min-width: 768px) and (max-width: 979px) { ... }  // Portrait tablet to landscape and desktop

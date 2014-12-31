@@ -38,10 +38,8 @@ manipulation.
 - Challenging Tasks
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-4 
+#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 :title Take a Look
 #+BEGIN_SRC org
-,* Take a Look
-
 {{{anchor(look)}}}
 #+BEGIN_HTML
 Download the game and try it or take a look at our
@@ -53,9 +51,8 @@ and
 #+END_HTML
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 :title Join the Team
 #+BEGIN_SRC org
-,* Join the Team
 GlPortal works through the contributions of team members around the world. 
 You can add your skills to the mix and help shape the open source world permanently. 
 [[http://webchat.freenode.net/?channels=%23%23glportal&uio=d4][Join our Chat]]
@@ -83,16 +80,13 @@ You can add your skills to the mix and help shape the open source world permanen
 #+END_HTML
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 :title Support Us
 #+BEGIN_SRC org
 
-,* Support Us
 {{{anchor(help)}}}
 You can support us by voting for us on [[http://www.indiedb.com/games/glportal][Indiedb]],
 [[http://www.lgdb.org/game/glportal-free][lgdb]] and [[http://www.mobygames.com/game/glportal][mobygames]].
-
-
-,** Create Screenshots And Videos
+Create Screenshots And Videos.
 #+END_SRC
 {{{col(12)}}}
 {{{row}}}
@@ -119,31 +113,10 @@ You can support us by voting for us on [[http://www.indiedb.com/games/glportal][
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
 #+BEGIN_SRC org
 Stuff
-Stuff
 
-Stuff
-StuffStuff
-Stuff
-
-Stuff
-StuffStuff
-Stuff
-
-Stuff
-StuffStuff
-Stuff
 #+BEGIN_HTML
 <div data-sr="wait 0.1s and then ease-in-out 200px"> 
   <p>GlPortal rocks!</p>
-  <p>Stuff</p>
-  <p>StuffStuff</p>
-  <p>Stuff</p>
-
-  <p>Stuff</p>
-  <p>StuffStuff</p>
-  <p>Stuff</p>
-
-  <p>Stuff</p>
 </div>
 
 #+END_HTML
