@@ -2,6 +2,20 @@ body {
     background-color: #444444;
 }
 
+@font-face {
+    font-family: 'Xolonium-Regular';
+    src: url('/assets/fonts/Xolonium-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jura-Book';
+    src: url('/assets/fonts/Jura-DemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .body-content {
     margin-top: -23px !important;
     background-color: rgba(255, 255, 255, 0.85);
@@ -67,6 +81,9 @@ div.main-btn-group.btn-group.btn-group-justified a.btn.btn-lg {
     margin-top: -50pt;
 }
 
+span.big-button-text, .h1, h2, h3, h4 {
+    font-family: Jura-Book, Helvetica, Tahoma !important;
+}
 
 
 @media (max-width: 480px) { ... }                         // Landscape phones and down
