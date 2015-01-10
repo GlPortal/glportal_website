@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1420032753.656192
+_modified_time = 1420917205.689959
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/index_helper.tmpl'
+_template_filename = u'/home/henry/system/projects/python/nikola/nikola/data/themes/base/templates/index_helper.tmpl'
 _template_uri = u'index_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['mathjax_script', 'html_pager']
@@ -67,6 +67,6 @@ def render_html_pager(context):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"15": 0, "20": 19, "21": 27, "27": 21, "32": 21, "33": 22, "34": 23, "40": 2, "47": 2, "48": 3, "49": 4, "50": 6, "51": 7, "52": 8, "53": 8, "54": 8, "55": 8, "56": 11, "57": 12, "58": 13, "59": 13, "60": 13, "61": 13, "62": 16, "68": 62}, "uri": "index_helper.tmpl", "filename": "/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/index_helper.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"15": 0, "20": 19, "21": 27, "27": 21, "32": 21, "33": 22, "34": 23, "40": 2, "47": 2, "48": 3, "49": 4, "50": 6, "51": 7, "52": 8, "53": 8, "54": 8, "55": 8, "56": 11, "57": 12, "58": 13, "59": 13, "60": 13, "61": 13, "62": 16, "68": 62}, "uri": "index_helper.tmpl", "filename": "/home/henry/system/projects/python/nikola/nikola/data/themes/base/templates/index_helper.tmpl"}
 __M_END_METADATA
 """

@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1420032753.531026
+_modified_time = 1420917205.573501
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/story.tmpl'
+_template_filename = u'/home/henry/system/projects/python/nikola/nikola/data/themes/base/templates/story.tmpl'
 _template_uri = u'story.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
@@ -95,6 +95,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 4, "28": 2, "34": 0, "48": 2, "49": 3, "50": 4, "51": 5, "56": 24, "62": 7, "75": 7, "76": 10, "77": 10, "78": 11, "79": 11, "80": 14, "81": 14, "82": 16, "83": 17, "84": 18, "85": 18, "86": 19, "87": 19, "88": 22, "89": 22, "90": 22, "96": 90}, "uri": "story.tmpl", "filename": "/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/story.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 4, "28": 2, "34": 0, "48": 2, "49": 3, "50": 4, "51": 5, "56": 24, "62": 7, "75": 7, "76": 10, "77": 10, "78": 11, "79": 11, "80": 14, "81": 14, "82": 16, "83": 17, "84": 18, "85": 18, "86": 19, "87": 19, "88": 22, "89": 22, "90": 22, "96": 90}, "uri": "story.tmpl", "filename": "/home/henry/system/projects/python/nikola/nikola/data/themes/base/templates/story.tmpl"}
 __M_END_METADATA
 """

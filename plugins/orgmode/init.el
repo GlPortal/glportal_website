@@ -126,6 +126,8 @@ contextual information."
           (format "<div class=\"panel panel-default %s\">\n  <div class=\"panel-body\">\n %s \n  </div>\n</div>\n" (or extra-class "") html))
          ((equal component "main-panel")
           (format "<div class=\"%s\"><div class=\"panel panel-primary\">\n  <div class=\"panel-heading\"><h2>%s</h2></div><div class=\"panel-body\">\n %s \n  </div>\n</div>\n</div>\n</div>\n" (or extra-class "") title html))
+         ((equal component "default-panel")
+          (format "<div class=\"%s\"><div class=\"panel panel-default\">\n  <div class=\"panel-heading\"><h2>%s</h2></div><div class=\"panel-body\">\n %s \n  </div>\n</div>\n</div>\n</div>\n" (or extra-class "") title html))
          ((equal component nil)
           (format "<div class=\"%s\">\n %s \n </div>\n" (or extra-class "") html))
           (t

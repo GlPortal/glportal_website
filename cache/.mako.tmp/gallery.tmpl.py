@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1420032753.361922
+_modified_time = 1420917205.410816
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/bootstrap3/templates/gallery.tmpl'
+_template_filename = u'/home/henry/system/projects/python/nikola/nikola/data/themes/bootstrap3/templates/gallery.tmpl'
 _template_uri = u'gallery.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content', u'sourcelink', u'extra_js', u'extra_head']
@@ -196,6 +196,6 @@ def render_extra_head(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"128": 30, "129": 31, "130": 31, "131": 31, "132": 31, "133": 31, "134": 32, "135": 32, "136": 32, "137": 32, "138": 34, "139": 37, "140": 38, "141": 38, "147": 5, "22": 4, "25": 3, "31": 0, "160": 55, "170": 55, "171": 58, "172": 58, "173": 61, "174": 61, "189": 42, "180": 42, "59": 2, "60": 3, "61": 4, "190": 43, "191": 43, "66": 5, "197": 191, "71": 40, "76": 52, "81": 94, "87": 7, "105": 7, "106": 8, "107": 8, "108": 9, "109": 10, "110": 10, "111": 10, "112": 12, "113": 13, "114": 14, "115": 14, "116": 17, "117": 18, "118": 19, "119": 20, "120": 20, "121": 20, "122": 21, "123": 21, "124": 23, "125": 25, "126": 27, "127": 28}, "uri": "gallery.tmpl", "filename": "/usr/local/lib/python2.7/dist-packages/nikola/data/themes/bootstrap3/templates/gallery.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"128": 30, "129": 31, "130": 31, "131": 31, "132": 31, "133": 31, "134": 32, "135": 32, "136": 32, "137": 32, "138": 34, "139": 37, "140": 38, "141": 38, "147": 5, "22": 4, "25": 3, "31": 0, "160": 55, "170": 55, "171": 58, "172": 58, "173": 61, "174": 61, "189": 42, "180": 42, "59": 2, "60": 3, "61": 4, "190": 43, "191": 43, "66": 5, "197": 191, "71": 40, "76": 52, "81": 94, "87": 7, "105": 7, "106": 8, "107": 8, "108": 9, "109": 10, "110": 10, "111": 10, "112": 12, "113": 13, "114": 14, "115": 14, "116": 17, "117": 18, "118": 19, "119": 20, "120": 20, "121": 20, "122": 21, "123": 21, "124": 23, "125": 25, "126": 27, "127": 28}, "uri": "gallery.tmpl", "filename": "/home/henry/system/projects/python/nikola/nikola/data/themes/bootstrap3/templates/gallery.tmpl"}
 __M_END_METADATA
 """

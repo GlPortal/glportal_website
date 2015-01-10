@@ -28,15 +28,15 @@ The player has to solve puzzles with the help of teleportation and physics
 manipulation.
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :extra-class col-md-3
+#+ATTR_HTML: :bootstrap t :component default-panel :extra-class col-md-3 no-padding :title Features
 #+BEGIN_SRC org
-,* Features
-- Modern OpenGL implementation
+- Modern OpenGL
 - Free and open game and engine
 - Enthusiastic community
 - Active Developers
 - Challenging Tasks
 #+END_SRC
+
 
 #+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 :title Take a Look
 #+BEGIN_SRC org

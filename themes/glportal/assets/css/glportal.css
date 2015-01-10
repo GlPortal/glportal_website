@@ -85,6 +85,10 @@ span.big-button-text, .h1, h2, h3, h4 {
     font-family: Jura-Book, Helvetica, Tahoma !important;
 }
 
+.no-padding {
+    padding: 0px !important;
+}
+
 
 @media (max-width: 480px) { ... }                         // Landscape phones and down
 @media (max-width: 767px) { ... }                         // Landscape phone to portrait tablet

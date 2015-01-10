@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1420032753.344532
+_modified_time = 1420917205.397995
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/annotation_helper.tmpl'
+_template_filename = u'/home/henry/system/projects/python/nikola/nikola/data/themes/base/templates/annotation_helper.tmpl'
 _template_uri = u'annotation_helper.tmpl'
 _source_encoding = 'ascii'
 _exports = ['code', 'css']
@@ -46,6 +46,6 @@ def render_css(context):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "ascii", "line_map": {"37": 1, "41": 1, "47": 41, "15": 0, "20": 3, "21": 16, "27": 5, "31": 5}, "uri": "annotation_helper.tmpl", "filename": "/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/annotation_helper.tmpl"}
+{"source_encoding": "ascii", "line_map": {"37": 1, "41": 1, "47": 41, "15": 0, "20": 3, "21": 16, "27": 5, "31": 5}, "uri": "annotation_helper.tmpl", "filename": "/home/henry/system/projects/python/nikola/nikola/data/themes/base/templates/annotation_helper.tmpl"}
 __M_END_METADATA
 """

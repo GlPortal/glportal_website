@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1420032753.429032
+_modified_time = 1420917205.48079
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/comments_helper_intensedebate.tmpl'
+_template_filename = u'/home/henry/system/projects/python/nikola/nikola/data/themes/base/templates/comments_helper_intensedebate.tmpl'
 _template_uri = u'comments_helper_intensedebate.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['comment_form', 'comment_link', 'comment_link_script']
@@ -75,6 +75,6 @@ def render_comment_link_script(context):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"15": 0, "20": 11, "21": 22, "22": 25, "28": 2, "33": 2, "34": 4, "35": 4, "36": 5, "37": 5, "38": 6, "39": 6, "45": 13, "50": 13, "51": 14, "52": 14, "53": 14, "54": 14, "55": 16, "56": 16, "57": 17, "58": 17, "59": 18, "60": 18, "66": 24, "70": 24, "76": 70}, "uri": "comments_helper_intensedebate.tmpl", "filename": "/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/comments_helper_intensedebate.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"15": 0, "20": 11, "21": 22, "22": 25, "28": 2, "33": 2, "34": 4, "35": 4, "36": 5, "37": 5, "38": 6, "39": 6, "45": 13, "50": 13, "51": 14, "52": 14, "53": 14, "54": 14, "55": 16, "56": 16, "57": 17, "58": 17, "59": 18, "60": 18, "66": 24, "70": 24, "76": 70}, "uri": "comments_helper_intensedebate.tmpl", "filename": "/home/henry/system/projects/python/nikola/nikola/data/themes/base/templates/comments_helper_intensedebate.tmpl"}
 __M_END_METADATA
 """
