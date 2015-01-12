@@ -28,7 +28,7 @@ The player has to solve puzzles with the help of teleportation and physics
 manipulation.
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :component default-panel :extra-class col-md-3 no-padding :title Features
+#+ATTR_HTML: :bootstrap t :component default-panel :extra-class col-md-3 no-padding high-200 :title Features
 #+BEGIN_SRC org
 - Modern OpenGL
 - Free and open game and engine
@@ -38,7 +38,7 @@ manipulation.
 #+END_SRC
 
 
-#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 :title Take a Look
+#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 main-panel :title Take a Look
 #+BEGIN_SRC org
 {{{anchor(look)}}}
 #+BEGIN_HTML
@@ -49,9 +49,10 @@ and
 <a href="https://www.youtube.com/results?search_query=glportal"><i class="fa fa-youtube-play"></i>
  Videos</a>
 #+END_HTML
+{{{button(View Details, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
 #+END_SRC
 
-#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 :title Join the Team
+#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 main-panel :title Join the Team
 #+BEGIN_SRC org
 GlPortal works through the contributions of team members around the world. 
 You can add your skills to the mix and help shape the open source world permanently. 
@@ -77,26 +78,6 @@ You can add your skills to the mix and help shape the open source world permanen
     </div>
   </div>
 </div>
-#+END_HTML
-#+END_SRC
-
-#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 :title Support Us
-#+BEGIN_SRC org
-
-{{{anchor(help)}}}
-You can support us by voting for us on [[http://www.indiedb.com/games/glportal][Indiedb]],
-[[http://www.lgdb.org/game/glportal-free][lgdb]] and [[http://www.mobygames.com/game/glportal][mobygames]].
-Create Screenshots And Videos.
-#+END_SRC
-{{{col(12)}}}
-{{{row}}}
-#+ATTR_HTML: :bootstrap t :extra-class col-md-4
-#+BEGIN_SRC org
-{{{button(View Details, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
-#+END_SRC
-#+ATTR_HTML: :bootstrap t :extra-class col-md-4
-#+BEGIN_SRC org
-#+BEGIN_HTML 
 <div data-sr="wait 0.3s and then ease-in-out 200px"> 
 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
   View Details
@@ -104,11 +85,18 @@ Create Screenshots And Videos.
 </div>
 #+END_HTML 
 #+END_SRC
-#+ATTR_HTML: :bootstrap t :extra-class col-md-4
+
+#+ATTR_HTML: :bootstrap t :component main-panel :extra-class col-md-4 main-panel :title Support Us
 #+BEGIN_SRC org
+
+{{{anchor(help)}}}
+You can support us by voting for us on [[http://www.indiedb.com/games/glportal][Indiedb]],
+[[http://www.lgdb.org/game/glportal-free][lgdb]] and [[http://www.mobygames.com/game/glportal][mobygames]].
+Create Screenshots And Videos.
 {{{button(View Details, http://webchat.freenode.net/?channels=%23%23glportal&uio=d4)}}}
 #+END_SRC
-{{{end}}}
+{{{col(12)}}}
+{{{row}}}
 {{{end}}}
 #+ATTR_HTML: :bootstrap t :extra-class col-md-12
 #+BEGIN_SRC org

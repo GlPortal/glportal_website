@@ -89,6 +89,17 @@ span.big-button-text, .h1, h2, h3, h4 {
     padding: 0px !important;
 }
 
+.high-200 .panel-body{
+    height: 169px;
+}
+
+.main-panel .panel-body{
+    height: 155px;
+}
+
+.main-panel .btn{
+    position: absolute; right: 24px; bottom: 28px;
+}
 
 @media (max-width: 480px) { ... }                         // Landscape phones and down
 @media (max-width: 767px) { ... }                         // Landscape phone to portrait tablet
