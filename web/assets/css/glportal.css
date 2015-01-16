@@ -101,6 +101,15 @@ span.big-button-text, .h1, h2, h3, h4 {
     position: absolute; right: 24px; bottom: 28px;
 }
 
+.main-panel {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
 @media (max-width: 480px) { ... }                         // Landscape phones and down
 @media (max-width: 767px) { ... }                         // Landscape phone to portrait tablet
 @media (min-width: 768px) and (max-width: 979px) { ... }  // Portrait tablet to landscape and desktop

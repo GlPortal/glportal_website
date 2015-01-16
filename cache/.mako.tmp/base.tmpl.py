@@ -4,7 +4,7 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1421009634.92467
+_modified_time = 1421445722.128027
 _enable_loop = True
 _template_filename = u'themes/glportal/templates/base.tmpl'
 _template_uri = u'base.tmpl'
@@ -76,7 +76,7 @@ def render_body(context,**pageargs):
 
         __M_writer(u'\n')
         __M_writer(unicode(template_hooks['extra_head']()))
-        __M_writer(u'\n<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />\n')
+        __M_writer(u'\n<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />\n<link href=\u2018http://fonts.googleapis.com/css?family=PT+Sans:400,700\u2018 rel=\u2018stylesheet\u2018 type=\u2018text/css\u2018>\n')
         if post and post.meta('slitslider'):
             __M_writer(u'        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider.css" />\n        <link rel="stylesheet" type="text/css" href="/assets/css/slider-custom.css" />\n')
         __M_writer(u'</head>\n<body>\n<div class="particles" style="z-index: -1; position: fixed; left: 0px; top: 0px; height: 100%; width: 33%; background-color: #444444;" >\n</div>\n<a href="#content" class="sr-only sr-only-focusable">')
@@ -246,6 +246,6 @@ def render_belowtitle(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 2, "28": 0, "67": 2, "68": 3, "69": 4, "70": 4, "71": 5, "72": 5, "77": 8, "78": 9, "79": 9, "80": 11, "81": 12, "82": 16, "83": 20, "84": 20, "85": 33, "86": 33, "87": 34, "88": 35, "89": 35, "90": 35, "91": 35, "92": 35, "93": 37, "94": 38, "95": 39, "96": 39, "97": 39, "98": 41, "99": 45, "100": 45, "101": 46, "102": 46, "103": 48, "104": 49, "105": 49, "106": 49, "107": 51, "112": 57, "113": 58, "114": 59, "119": 59, "120": 61, "121": 61, "122": 61, "123": 73, "124": 73, "129": 74, "130": 89, "131": 89, "132": 90, "133": 90, "134": 95, "135": 95, "136": 99, "137": 99, "138": 100, "139": 100, "140": 100, "141": 100, "146": 103, "147": 104, "148": 105, "149": 105, "150": 105, "151": 106, "152": 107, "153": 107, "154": 107, "155": 109, "156": 109, "157": 110, "158": 110, "159": 111, "160": 112, "161": 116, "167": 74, "181": 6, "190": 6, "196": 59, "210": 103, "224": 53, "236": 53, "237": 54, "238": 55, "239": 55, "240": 55, "241": 57, "247": 241}, "uri": "base.tmpl", "filename": "themes/glportal/templates/base.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"22": 3, "25": 2, "28": 0, "67": 2, "68": 3, "69": 4, "70": 4, "71": 5, "72": 5, "77": 8, "78": 9, "79": 9, "80": 12, "81": 13, "82": 17, "83": 21, "84": 21, "85": 34, "86": 34, "87": 35, "88": 36, "89": 36, "90": 36, "91": 36, "92": 36, "93": 38, "94": 39, "95": 40, "96": 40, "97": 40, "98": 42, "99": 46, "100": 46, "101": 47, "102": 47, "103": 49, "104": 50, "105": 50, "106": 50, "107": 52, "112": 58, "113": 59, "114": 60, "119": 60, "120": 62, "121": 62, "122": 62, "123": 74, "124": 74, "129": 75, "130": 90, "131": 90, "132": 91, "133": 91, "134": 96, "135": 96, "136": 100, "137": 100, "138": 101, "139": 101, "140": 101, "141": 101, "146": 104, "147": 105, "148": 106, "149": 106, "150": 106, "151": 107, "152": 108, "153": 108, "154": 108, "155": 110, "156": 110, "157": 111, "158": 111, "159": 112, "160": 113, "161": 117, "167": 75, "181": 6, "190": 6, "196": 60, "210": 104, "224": 54, "236": 54, "237": 55, "238": 56, "239": 56, "240": 56, "241": 58, "247": 241}, "uri": "base.tmpl", "filename": "themes/glportal/templates/base.tmpl"}
 __M_END_METADATA
 """
