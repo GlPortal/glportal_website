@@ -27,6 +27,8 @@ SITE_URL = "http://glportal.de/"
 # BASE_URL = "http://glportal.de"
 BLOG_DESCRIPTION = "A free and open 3d action adventure."  # (translatable)
 BLOG_EMAIL=""
+WRITE_TAG_CLOUD=True
+USE_BUNDLES=False
 # Nikola is multilingual!
 #
 # Currently supported languages are:
@@ -168,7 +170,8 @@ TIMEZONE = "Europe/Berlin"
 # LOCALE_FALLBACK = locale to use when an explicit locale is unavailable
 # LOCALE_DEFAULT = locale to use for languages not mentioned in LOCALES; if
 # not set the default Nikola mapping is used.
-
+LOCALE_DEFAULT = "C"
+DEFAULT_LANG = "en"
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 #
 # The wildcard is used to generate a list of reSt source files
@@ -412,7 +415,8 @@ OUTPUT_FOLDER = 'web'
 
 # Galleries are folders in galleries/
 # Final location of galleries will be output / GALLERY_PATH / gallery_name
-GALLERY_PATH = "galleries"
+#GALLERY_PATH = "galleries"
+GALLERY_FOLDERS = {u'galleries': u'galleries'}
 THUMBNAIL_SIZE = 300
 MAX_IMAGE_SIZE = 1280
 USE_FILENAME_AS_TITLE = True
