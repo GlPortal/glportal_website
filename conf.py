@@ -118,7 +118,7 @@ NAVIGATION_LINKS = {
           ('/bar', 'BAR')), 'BAZ'),
         ("/archive.html", "<i class=\"glyphicon glyphicon-folder-open\"</i> Archive"),
         ("/categories/index.html", "<i class=\"glyphicon glyphicon-tag\"></i> Tags"),
-        ("/rss.xml", "<i class=\"fa fa-rss\"></i> RSS feed"),
+        ("/rss.xml", "<i class=\"fa fa-comments\"></i> Chat"),
     ),
 }
 

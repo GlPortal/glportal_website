@@ -15,7 +15,7 @@
 <div class="start_article">
 #+END_HTML
 {{{main_button_group}}}
-{{{large_primary_button(<i class="fa fa-download fa-3x"></i> <span class="big-button-text">Download 0.0.7.1</span>, http://www.indiedb.com/games/glportal/downloads)}}}
+{{{large_primary_button(<i class="fa fa-download fa-3x"></i> <span class="big-button-text">Download 0.1</span>, http://www.indiedb.com/games/glportal/downloads)}}}
 {{{large_button(<i class="fa fa-github fa-3x"></i> <span class="big-button-text">Source Code</span>, https://github.com/GlPortal/glPortal)}}}
 {{{large_button(<i class="fa fa-users fa-3x"></i> <span class="big-button-text">Join the Team</span>, #help)}}}
 {{{large_button(<i class="fa fa-bug fa-3x"></i> <span class="big-button-text">Report a Bug</span>, http://bugs.glportal.de)}}}
@@ -72,8 +72,9 @@ You can add your skills to the mix and help shape the open source world permanen
 #+INCLUDE: "join.inc.org" 
 #+BEGIN_HTML 
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        <div class="modal-footer">        
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">More Information</button>
       </div>
     </div>
   </div>

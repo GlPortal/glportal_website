@@ -12,7 +12,8 @@
 <link rel="stylesheet" type="text/css" href="../../assets/css/glportal.css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
 <link rel="canonical" href="http://glportal.de/galleries/screenshots/index.html">
-<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><style type="text/css">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<style type="text/css">
     .image-block {
         display: inline-block;
     }
@@ -75,7 +76,7 @@
 <a href="../../categories/index.html"><i class="glyphicon glyphicon-tag"></i> Tags</a>
                 </li>
 <li>
-<a href="../../rss.xml"><i class="fa fa-rss"></i> RSS feed</a>
+<a href="../../rss.xml"><i class="fa fa-comments"></i> Chat</a>
 
                 
             </li>
@@ -94,7 +95,7 @@
     
 <nav class="breadcrumbs"><ul class="breadcrumb">
 <li><a href="../">galleries</a></li>
-        <li><a href="#">screenshots</a></li>
+                <li>screenshots</li>
 </ul></nav><h1>screenshots</h1>
 
 <div id="gallery_container"></div>
@@ -144,7 +145,7 @@
     moment.locale("");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script src="../../assets/js/flowr.plugin.js"></script><script>
-jsonContent = [{"url": "header.png", "title": "Header", "size": {"h": 200, "w": 800}, "url_thumb": "header.thumbnail.png"}, {"url": "the_cake_is_lying_around.png", "title": "The cake is lying around", "size": {"h": 187, "w": 300}, "url_thumb": "the_cake_is_lying_around.thumbnail.png"}, {"url": "glportal-texture-update.png", "title": "Glportal texture update", "size": {"h": 187, "w": 300}, "url_thumb": "glportal-texture-update.thumbnail.png"}, {"url": "4EK9dI2.png", "title": "Ek9di2", "size": {"h": 225, "w": 300}, "url_thumb": "4EK9dI2.thumbnail.png"}];
+jsonContent = [{"size": {"h": 200, "w": 800}, "title": "Header", "url": "header.png", "url_thumb": "header.thumbnail.png"}, {"size": {"h": 187, "w": 300}, "title": "The cake is lying around", "url": "the_cake_is_lying_around.png", "url_thumb": "the_cake_is_lying_around.thumbnail.png"}, {"size": {"h": 187, "w": 300}, "title": "Glportal texture update", "url": "glportal-texture-update.png", "url_thumb": "glportal-texture-update.thumbnail.png"}, {"size": {"h": 225, "w": 300}, "title": "Ek9di2", "url": "4EK9dI2.png", "url_thumb": "4EK9dI2.thumbnail.png"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 300*.6,

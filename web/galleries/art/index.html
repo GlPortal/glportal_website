@@ -12,7 +12,8 @@
 <link rel="stylesheet" type="text/css" href="../../assets/css/glportal.css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
 <link rel="canonical" href="http://glportal.de/galleries/art/index.html">
-<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><style type="text/css">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<style type="text/css">
     .image-block {
         display: inline-block;
     }
@@ -75,7 +76,7 @@
 <a href="../../categories/index.html"><i class="glyphicon glyphicon-tag"></i> Tags</a>
                 </li>
 <li>
-<a href="../../rss.xml"><i class="fa fa-rss"></i> RSS feed</a>
+<a href="../../rss.xml"><i class="fa fa-comments"></i> Chat</a>
 
                 
             </li>
@@ -94,7 +95,7 @@
     
 <nav class="breadcrumbs"><ul class="breadcrumb">
 <li><a href="../">galleries</a></li>
-        <li><a href="#">art</a></li>
+                <li>art</li>
 </ul></nav><h1>art</h1>
 
 <div id="gallery_container"></div>
@@ -156,7 +157,7 @@
     moment.locale("");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script src="../../assets/js/flowr.plugin.js"></script><script>
-jsonContent = [{"url": "alan.jpg", "title": "Alan", "size": {"h": 300, "w": 224}, "url_thumb": "alan.thumbnail.jpg"}, {"url": "ada_and_alan.jpg", "title": "Ada and alan", "size": {"h": 300, "w": 273}, "url_thumb": "ada_and_alan.thumbnail.jpg"}, {"url": "character-in-action.jpg", "title": "Character in action", "size": {"h": 300, "w": 209}, "url_thumb": "character-in-action.thumbnail.jpg"}, {"url": "ada.jpg", "title": "Ada", "size": {"h": 300, "w": 212}, "url_thumb": "ada.thumbnail.jpg"}, {"url": "ada_suite_2.jpg", "title": "Ada suite 2", "size": {"h": 300, "w": 224}, "url_thumb": "ada_suite_2.thumbnail.jpg"}, {"url": "ada-line-1-color.jpg", "title": "Ada line 1 color", "size": {"h": 300, "w": 212}, "url_thumb": "ada-line-1-color.thumbnail.jpg"}, {"url": "ada_suite-1.jpg", "title": "Ada suite 1", "size": {"h": 300, "w": 212}, "url_thumb": "ada_suite-1.thumbnail.jpg"}];
+jsonContent = [{"size": {"h": 300, "w": 224}, "title": "Alan", "url": "alan.jpg", "url_thumb": "alan.thumbnail.jpg"}, {"size": {"h": 300, "w": 273}, "title": "Ada and alan", "url": "ada_and_alan.jpg", "url_thumb": "ada_and_alan.thumbnail.jpg"}, {"size": {"h": 300, "w": 209}, "title": "Character in action", "url": "character-in-action.jpg", "url_thumb": "character-in-action.thumbnail.jpg"}, {"size": {"h": 300, "w": 212}, "title": "Ada", "url": "ada.jpg", "url_thumb": "ada.thumbnail.jpg"}, {"size": {"h": 300, "w": 224}, "title": "Ada suite 2", "url": "ada_suite_2.jpg", "url_thumb": "ada_suite_2.thumbnail.jpg"}, {"size": {"h": 300, "w": 212}, "title": "Ada line 1 color", "url": "ada-line-1-color.jpg", "url_thumb": "ada-line-1-color.thumbnail.jpg"}, {"size": {"h": 300, "w": 212}, "title": "Ada suite 1", "url": "ada_suite-1.jpg", "url_thumb": "ada_suite-1.thumbnail.jpg"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 300*.6,
