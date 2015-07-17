@@ -94,27 +94,27 @@
 
 
 .bg-img-1 {
-    	background-image: url('/images/slider/1.png');
+    	background-image: url('../../images/slider/1.png');
 }
 
 .bg-img-2 {
-	background-image: url('./galleries/screenshots/glportal-texture-update.png');
+	background-image: url('../../galleries/screenshots/glportal-texture-update.png');
 }
 
 .sl-slide-inner-1 {
-	background-image: url('./images/slider/1.png') !important;
+	background-image: url('../../images/slider/1.png') !important;
 }
 
 .sl-slide-inner-2 {
-	background-image: url('./images/slider/2.jpg') !important;
+	background-image: url('../../images/slider/2.jpg') !important;
 }
 
 .sl-slide-inner-3 {
-	background-image: url('./images/slider/3.png') !important;
+	background-image: url('../../images/slider/3.png') !important;
 }
 
 .sl-slide-inner-4 {
-	background-image: url('./images/slider/4.png') !important;
+	background-image: url('../../images/slider/4.png') !important;
 }
 
 
