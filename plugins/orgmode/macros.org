@@ -2,6 +2,10 @@
 #+MACRO: panel #+HTML: <div class="panel">
 #+MACRO: end_content_panel #+HTML: </div></div>
 #+MACRO: col #+HTML: <div class="col-md-$1">
+#+MACRO: col-md-sm #+HTML: <div class="col-md-$1 col-sm-$2">
+#+MACRO: col-md-sm-xs #+HTML: <div class="col-md-$1 col-sm-$2 col-xs-$3">
+#+MACRO: col-lg-md-sm #+HTML: <div class="col-lg-$1 col-md-$2 col-sm-$4">
+#+MACRO: col-lg-md-sm-xs #+HTML: <div class="col-lg-$1 col-md-$2 col-sm-$4 col-xs-$5">
 #+MACRO: anchor #+HTML: <span id="anchor-$1"/>
 #+MACRO: jumbotron #+HTML: <div class="jumbotron">
 #+MACRO: end_jumbotron #+HTML: </div>

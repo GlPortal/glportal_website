@@ -2,6 +2,16 @@ body {
     background-color: #444444;
 }
 
+.e-content {
+    margin-top: 74px;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,.col-md-6, .col-md-7, .col-md-8,
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,.col-lg-6, .col-lg-7, .col-lg-8 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 @font-face {
     font-family: 'Xolonium-Regular';
     src: url('/assets/fonts/Xolonium-Regular.otf');
@@ -77,8 +87,6 @@ div.main-btn-group.btn-group.btn-group-justified a.btn.btn-lg {
 
 .panel-heading h2 {
     font-size: 18pt;
-    height: 50pt;
-    margin-top: -50pt;
 }
 
 span.big-button-text, .h1, h2, h3, h4 {
@@ -110,7 +118,16 @@ span.big-button-text, .h1, h2, h3, h4 {
     margin-bottom: 0px;
 }
 
-@media (max-width: 480px) { ... }                         // Landscape phones and down
-@media (max-width: 767px) { ... }                         // Landscape phone to portrait tablet
-@media (min-width: 768px) and (max-width: 979px) { ... }  // Portrait tablet to landscape and desktop
-@media (min-width: 1200px) { ... }     
+.container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media (max-width: 480px) {  }                         // Landscape phones and down
+@media (max-width: 767px) {  }                         // Landscape phone to portrait tablet
+@media (min-width: 768px) and (max-width: 979px) {}  // Portrait tablet to landscape and desktop
+@media (min-width: 1200px) {}
+
+@media (min-width: 1900px) {}
+
+@media (min-width: 3000px) {}  
