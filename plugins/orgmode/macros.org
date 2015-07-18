@@ -27,6 +27,7 @@
 #+MACRO: plain #+HTML: $1
 #+MACRO: link #+HTML: <a href="$2">$1</a>
 #+MACRO: link_popup #+HTML: <a href="$2" target="_blank">$1</a>
+#+MACRO: container #+HTML: <div class="$1">
 
 #+MACRO: gist #+HTML: <script src="https://gist.github.com/$1.js"></script>
 {{{gist(2395294)}}}

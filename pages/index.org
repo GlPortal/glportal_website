@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: GlPortal is a free 3d action adventure
 .. slug: index
-.. date: 2014-11-22 12:46:06 UTC+01:00
+.. date: 2014-07-20 12:46:06 UTC+01:00
 .. tags: 
 .. link: 
 .. description: Official Website of the free open source action adventure game GlPortal.
@@ -10,10 +10,12 @@
 .. slitslider: True
 #+END_COMMENT
 {{{row}}}
-{{{col-lg-md-sm(7,9,9)}}}
+{{{col-lg-md-sm(7,12,12)}}}
 #+INCLUDE: "slider.inc.org" :minlevel 1
 {{{end}}}
-#+ATTR_HTML: :bootstrap t :component jumbotron :extra-class col-lg-5 col-md-9 col-sm-9
+{{{col-lg-md-sm(5,12,12)}}}
+{{{container(right-main-container)}}}
+#+ATTR_HTML: :bootstrap t :component jumbotron
 #+BEGIN_SRC org
 GlPortal is a free as in freedom game and game engine for /GNU/Linux/, /Windows/
 and /Mac OS X/. 
@@ -21,7 +23,8 @@ The player has to solve puzzles with the help of teleportation and physics
 manipulation.
 #+END_SRC
 {{{end}}}
-
+{{{end}}}
+{{{end}}}
 
 {{{row}}}
 {{{main_button_group}}}
