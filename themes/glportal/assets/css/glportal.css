@@ -131,8 +131,6 @@ span.big-button-text, .h1, h2, h3, h4 {
 .right-main-container {
     background-color: #444444;
     height: 400px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 @media (max-width: 480px) {
