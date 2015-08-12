@@ -170,3 +170,9 @@ span.big-button-text, .h1, h2, h3, h4 {
 @media (min-width: 1200px) {
 
 }
+
+@media (min-width: 1900px) {
+    .container {
+        width: 1900px;
+    }
+}
