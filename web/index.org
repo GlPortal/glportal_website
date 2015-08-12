@@ -22,6 +22,14 @@ and /Mac OS X/.
 The player has to solve puzzles with the help of teleportation and physics
 manipulation.
 #+END_SRC
+#+ATTR_HTML: :bootstrap t :component main-panel :extra-class no-padding high-200 :title Features
+#+BEGIN_SRC org
+- Modern OpenGL
+- Free and open game and engine
+- Enthusiastic community
+- Active Developers
+- Challenging Tasks
+#+END_SRC
 {{{end}}}
 {{{end}}}
 {{{end}}}
